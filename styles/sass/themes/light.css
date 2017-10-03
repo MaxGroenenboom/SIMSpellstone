@@ -46,7 +46,7 @@ div.section {
   border: 2px solid #1d1d1d;
   border-radius: 10px 10px 0 0;
   padding-bottom: 2px;
-  max-width: 555px; }
+  max-width: 762px; }
   div.section h1, div.section h2, div.section h3, div.section h4, div.section h5, div.section h6 {
     color: #1d1d1d;
     background-color: gray;
@@ -249,7 +249,8 @@ h2 .ui-icon {
   width: 49%; }
 
 .deckView {
-  zoom: .75; }
+  zoom: .75;
+  width: 50%; }
 
 .deckSpacer {
   min-width: 5px;
