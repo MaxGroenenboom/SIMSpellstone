@@ -13,98 +13,131 @@ VALID_HEROES = [
 	'YgdBA', // General Ursario
 ];
 
+SIMULATION_DELAY = 200;
+
 $(() => {
 	$("#btn_bf_remove").click(bruteforceRemove);
 	$("#btn_bf_heroes").click(bruteforceHeroes);
 });
 
-function bruteforceRemove() {
-	var realDeck = $('#deck1').val();
+bruteforcing = false;
+
+/**
+ * Does a bruteforce simulation using the supplied functions.
+ *
+ * @param {function} init The function called before the simulation.
+ *     Should accept the following parameters: (string hero, string[] deck)
+ *     hero is the hex string for the hero, deck is an array of all cards in the deck.
+ * @param {function} step The function called for each step in the simulation.
+ *     Should accept an int as parameter: the nth step of the bruteforce.
+ * @param {function} condition The function called to determine the end of simulation.
+ *     Should accept an int as parameter: the nth step of the bruteforce.
+ */
+function startBruteforce(init, step, condition) {
+	var elem = {
+		deckInput: $('#deck1'),
+		ui: $('#ui'),
+		simulateBtn: $('#btn_simulate'),
+		header: $('header'),
+	};
+
+	// Create deck input for init.
+	var realDeck = elem.deckInput.val();
 	var hero = realDeck.slice(0,5);
 	var deck = realDeck.slice(5);
 	var deckArray = [];
 	while (deck.length > 0) {
-		var nextChar = deck.slice(0,5);
-		deckArray.push(nextChar);
+		var nextCard = deck.slice(0,5);
+		deckArray.push(nextCard);
 		deck = deck.slice(5);
 	}
-	var waitOnce = true;
+	init(hero, deckArray);
 
-	function doBruteforceStep(index) {
-		if (index >= deckArray.length) { // Stop when finished.
-			$('#deck1').val(realDeck);
+	// Create helper functions.
+	function startBruteforce() { // Called when bruteforcing starts.
+		bruteforcing = true;
+		elem.header.addClass("bruteforcing");
+	}
+	function endBruteforce() { // Called when bruteforcing finishes.
+		bruteforcing = false;
+		elem.header.removeClass("bruteforcing");
+	}
+	function doStep(index) { // Recursive step function of the algorithm.
+		if (condition(index)) { // Stops recursion when stop condition is reached.
+			elem.deckInput.val(realDeck);
+			endBruteforce();
 			return;
 		}
-		if ($('#ui').is(":not(:visible)")) { // Skip if simulation running.
-			setTimeout(() => {
-				doBruteforceStep(index);
-			},100);
+		if (elem.ui.is(":not(:visible)")) { // Wait when simulation is still running.
+			setTimeout(() => doStep(index), 100);
 			return;
-		} else if (waitOnce) { // Skip if too fast after simulation.
+		}
+		if (waitOnce) { // Ensure delay between simulations.
 			waitOnce = false;
-			setTimeout(() => {
-				doBruteforceStep(index);
-			},200);
+			setTimeout(() => doStep(index), SIMULATION_DELAY);
 			return;
+		} else {
+			waitOnce = true;
 		}
-		waitOnce = true;
 
-		console.log("Bruteforce step " + index);
+		// Do simulation modification.
+		console.log("Starting bruteforce step " + (index+1));
+		var bruteforceDeck = step(index);
+		elem.deckInput.val(bruteforceDeck);
+		elem.simulateBtn.click();
+
+		// Continue to the next step.
+		setTimeout(() => doStep(index + 1), 100);
+	};
+
+	// Start the recursive bruteforce algorithm.
+	console.log("Initiating bruteforce");
+	startBruteforce();
+	var waitOnce = true;
+	doStep(0);
+	return false;
+}
+
+function bruteforceRemove() {
+	var hero;
+	var deckArray;
+
+	function init(h, d) {
+		hero = h;
+		deckArray = d;
+	}
+	function step(index) {
 		var deck = hero;
 		for (var i = 0; i < deckArray.length; i++) {
 			if (i != index) {
 				deck += deckArray[i];
 			}
 		}
-
-		$('#deck1').val(deck);
-		$('#btn_simulate').click();
-
-		setTimeout(() => {
-			doBruteforceStep(index + 1);
-		},100);
+		return deck;
 	}
-
-	doBruteforceStep(0);
-	return false;
+	function condition(index) {
+		return index >= deckArray.length;
+	}
+	return startBruteforce(init, step, condition);
 }
 
 function bruteforceHeroes() {
-	var realDeck = $('#deck1').val();
-	var hero = realDeck.slice(0,5);
-	var rest = realDeck.slice(5);
-	var waitOnce = true;
+	var hero;
+	var cards = "";
 
-	function doBruteforceStep(index) {
-		if (index >= VALID_HEROES.length) { // Stop when finished.
-			$('#deck1').val(realDeck);
-			return;
+	function init(h, d) {
+		hero = h;
+		for (var i = 0; i < d.length; i++) {
+			cards += d[i];
 		}
-		if ($('#btn_simulate').is(":not(:visible)")) { // Skip if simulation running.
-			setTimeout(() => {
-				doBruteforceStep(index);
-			},100);
-			return;
-		} else if (waitOnce) { // Skip if too fast after simulation.
-			waitOnce = false;
-			setTimeout(() => {
-				doBruteforceStep(index);
-			},200);
-			return;
-		}
-		waitOnce = true;
-
-		console.log("Bruteforce step " + index);
-		var deck = VALID_HEROES[index] + rest;
-
-		$('#deck1').val(deck);
-		$('#btn_simulate').click();
-
-		setTimeout(() => {
-			doBruteforceStep(index + 1);
-		},100);
+	}
+	function step(index) {
+		var deck = VALID_HEROES[index] + cards;
+		return deck;
+	}
+	function condition(index) {
+		return index >= VALID_HEROES.length;
 	}
 
-	doBruteforceStep(0);
-	return false;
+	return startBruteforce(init, step, condition);
 }
