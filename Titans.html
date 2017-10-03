@@ -61,6 +61,7 @@
     <script src="scripts/gui_script.js"></script>
     <script src="scripts/cards_gui.js"></script>
 
+	<script src="scripts/bruteforce-controller.js"></script>
     <!-- SIMULATOR CODE ENDS HERE -->
     <script src="scripts/tutorial/simulator-tutorial.js"></script>
     <script src="scripts/sim-tutorial.js"></script>
@@ -240,7 +241,6 @@
                                     <input type="radio" class="table-cell" id="mass_debug" name="debugMode" ng-disabled="!debugMode"><label>Mass Debug Mode (slow)</label>
                                 </div>
                             </div>
-
                             <div class="table-row">
                                 <div class="table-cell">
                                     <input type="radio" class="table-cell" id="win_debug" name="debugMode" ng-disabled="!debugMode"><label>First Win</label>
@@ -272,6 +272,16 @@
                 </div>
             </div>
             <hr />
+			<div id="bf-container" class="section accordion">
+				<h2>Bruteforce Modifications</h2>
+				<div>
+					<div class="collapsible table">
+						<input id="btn_bf_remove" type="button" value="Bruteforce Remove" />
+						<input id="btn_bf_heroes" type="button" value="Bruteforce Heroes" />
+					</div>
+				</div>
+			</div>
+			<hr />
             <div id="sims-container" class="inline">
                 <label for="sims">Number of Simulations: </label><input type="text" id="sims">
             </div><br />
