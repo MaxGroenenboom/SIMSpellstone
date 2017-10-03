@@ -16,42 +16,45 @@ VALID_HEROES = [
 SIMULATION_DELAY = 200;
 
 $(() => {
-	$("#btn_bf_remove").click(bruteforceRemove);
-	$("#btn_bf_heroes").click(bruteforceHeroes);
-});
-
-bruteforcing = false;
-
-/**
- * Does a bruteforce simulation using the supplied functions.
- *
- * @param {function} init The function called before the simulation.
- *     Should accept the following parameters: (string hero, string[] deck)
- *     hero is the hex string for the hero, deck is an array of all cards in the deck.
- * @param {function} step The function called for each step in the simulation.
- *     Should accept an int as parameter: the nth step of the bruteforce.
- * @param {function} condition The function called to determine the end of simulation.
- *     Should accept an int as parameter: the nth step of the bruteforce.
- */
-function startBruteforce(init, step, condition) {
-	var elem = {
+	elem = {
 		deckInput: $('#deck1'),
 		ui: $('#ui'),
 		simulateBtn: $('#btn_simulate'),
 		header: $('header'),
+		additions: $('#field_possible_additions'),
 	};
 
-	// Create deck input for init.
-	var realDeck = elem.deckInput.val();
-	var hero = realDeck.slice(0,5);
-	var deck = realDeck.slice(5);
+	$("#btn_bf_remove").click(bruteforceRemove);
+	$("#btn_bf_heroes").click(bruteforceHeroes);
+	$("#btn_bf_adds").click(bruteforceAdditions);
+});
+
+bruteforcing = false;
+
+function splitDeck(deck = "") {
 	var deckArray = [];
 	while (deck.length > 0) {
 		var nextCard = deck.slice(0,5);
 		deckArray.push(nextCard);
 		deck = deck.slice(5);
 	}
-	init(hero, deckArray);
+	return deckArray;
+}
+
+/**
+ * Does a bruteforce simulation using the supplied functions.
+ *
+ * @param {function} init The function called before the simulation.
+ *     Should accept the input deck as string.
+ * @param {function} step The function called for each step in the simulation.
+ *     Should accept an int as parameter: the nth step of the bruteforce.
+ * @param {function} condition The function called to determine the end of simulation.
+ *     Should accept an int as parameter: the nth step of the bruteforce.
+ */
+function startBruteforce(init, step, condition) {
+	// Create deck input for init.
+	var realDeck = elem.deckInput.val();
+	init(realDeck);
 
 	// Create helper functions.
 	function startBruteforce() { // Called when bruteforcing starts.
@@ -102,9 +105,10 @@ function bruteforceRemove() {
 	var hero;
 	var deckArray;
 
-	function init(h, d) {
-		hero = h;
-		deckArray = d;
+	function init(d) {
+		var deck = splitDeck(d);
+		hero = deck[0];
+		deckArray = deck.slice(1);
 	}
 	function step(index) {
 		var deck = hero;
@@ -125,11 +129,9 @@ function bruteforceHeroes() {
 	var hero;
 	var cards = "";
 
-	function init(h, d) {
-		hero = h;
-		for (var i = 0; i < d.length; i++) {
-			cards += d[i];
-		}
+	function init(d) {
+		hero = d.slice(0,5);
+		cards = d.slice(5);
 	}
 	function step(index) {
 		var deck = VALID_HEROES[index] + cards;
@@ -138,6 +140,23 @@ function bruteforceHeroes() {
 	function condition(index) {
 		return index >= VALID_HEROES.length;
 	}
-
 	return startBruteforce(init, step, condition);
 }
+
+function bruteforceAdditions() {
+	var cards;
+	var additions = splitDeck(elem.additions.val().slice(5));
+
+	function init(d) {
+		cards = d;
+	}
+	function step(index) {
+		var deck = cards + additions[index];
+		return deck;
+	}
+	function condition(index) {
+		return index >= additions.length;
+	}
+	return startBruteforce(init, step, condition);
+}
+
