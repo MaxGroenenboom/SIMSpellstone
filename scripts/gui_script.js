@@ -576,19 +576,21 @@ function load_deck_builder_for_field(fieldID) {
 }
 
 function load_deck_builder(player) {
+	var getmission;
+	var missionlevel;
+	var getraid;
+	var raidlevel;
     if (player == 'player') {
         var getdeck = $('#deck1').val();
-        var getmission;
-        var missionlevel;
-        var getraid;
-        var raidlevel;
-    } else {
+    } else if (player == 'cpu') {
         var getdeck = $('#deck2').val();
         var getmission = $('#mission').val();
         var missionlevel = $('#mission_level').val();
         var getraid = $('#raid').val();
         var raidlevel = $('#raid_level').val();
-    }
+    } else if (player == 'bf-inventory') {
+        var getdeck = $('#field_possible_additions').val();
+	}
 
     // Load player deck
     var deck = {
@@ -607,8 +609,22 @@ function load_deck_builder(player) {
         hash = hash_encode(deck);
     }
 
-    var name = (player == 'player' ? 'Player Deck' : 'Enemy Deck');
-    var deckHashField = (player ? $("#" + (player == 'player' ? 'deck1' : 'deck2')) : null);
+    var data = {
+		name: {
+			player: 'Player Deck',
+			cpu: 'Enemy Deck',
+			'bf-inventory': 'Bruteforce Possible Additions',
+		},
+		field: {
+			player: '#deck1',
+			cpu: '#deck2',
+			'bf-inventory': '#field_possible_additions',
+		},
+	}
+
+	var name = data.name[player];
+
+    var deckHashField = $(data.field[player]);
     open_deck_builder(name, hash, null, deckHashField);
 }
 
@@ -631,10 +647,10 @@ function open_deck_builder(name, hash, inventory, deckHashField) {
 
     var url = "DeckBuilder.html?" + parameters.join('&');
 
-    var width = Math.min(screen.width, 1000);
-    var height = Math.min(screen.height, 700);
-    var left = Number((screen.width - width) / 2);
-    var top = Number((screen.height - height) / 2);
+    var width = Math.min(screen.width);
+    var height = Math.min(screen.height);
+    var left = Number(0);
+    var top = Number(0);
 
     var windowFeatures = 'location=0,menubar=0,resizable=0,scrollbars=0,status=0,width=' + width + ',height=' + height + ',top=' + top + ',left=' + left;
     var win = window.open(url, '', windowFeatures);
