@@ -325,7 +325,7 @@
             'counterburn',
             'enfeeble',
             'enhance',
-            'enlarge',
+            //'enlarge',
             'enrage',
             'evade',
             'evadebarrier',
@@ -340,7 +340,7 @@
             'jam',
             'leech',
             'legion',
-            'mark',
+            //'mark',
             'nullify',
             'pierce',
             'poison',
@@ -357,7 +357,7 @@
             'strike',
             'taunt',
             'valor',
-            'venom',
+            //'venom',
             'weaken',
             'weakenself',
         ].sort(function (idA, idB) {
@@ -392,17 +392,20 @@
         .directive('cardDetails', function ()
         {
             return {
-                scope: {
-                    id: "@unitId",
-                    level: "@unitLevel",
-                },
                 restrict: 'A',
                 replace: true,
                 templateUrl: 'templates/card-template.html',
                 controller: CardDetailsCtrl
             }
-        }).filter('capitalize', function ()
-        {
+        })
+		.directive('sssAutofocus', function () {
+			return {
+				link: function (scope, elem, attr) {
+					elem.focus();
+				}
+			}
+		})
+		.filter('capitalize', function () {
             return function (input)
             {
                 if (input)
@@ -420,8 +423,8 @@
                     return ''
                 };
             }
-        }).filter('convertName', function ()
-        {
+		})
+		.filter('convertName', function () {
             return window.convertName;
         })
         .controller('DeckBuilderCtrl', ['$scope', '$window', DeckBuilderCtrl]);

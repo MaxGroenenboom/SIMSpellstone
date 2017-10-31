@@ -1505,6 +1505,55 @@ var CARDS = {
       },
     }
   },
+  "19": {
+  	"id": "19",
+  	"name": "Scyer the Fury Mecha",
+  	"desc": "A new hero has decided to lend his power to your team. It’s the rhyming robot of destruction, the keeper of Fireshard Mine, Scyer the Fury Mecha!",
+  	"picture": "portrait_chaos_mecha_hero",
+  	"rarity": "4",
+  	"set": "7000",
+  	"card_type": "1",
+  	"type": "2",
+  	"sub_type": [],
+  	"health": 1,
+  	"maxLevel": 6,
+  	"skill": [],
+  	"upgrades": {
+  		"2": {
+			"skill": []
+  		},
+  		"3": {
+  			"skill": []
+  		},
+  		"4": {
+  			"skill": []
+  		},
+		"5": {
+			"skill": []
+		},
+  		"6": {
+  			"health": 55,
+  			"skill": [
+			  {
+			  	"id": "enhance",
+			  	"x": 1,
+			  	"s": "berserk",
+				"all": "1"
+			  },
+			  {
+			  	"id": "enrage",
+			  	"x": 2,
+			  	"y": "16",
+			  },
+			  {
+			  	"id": "enrage",
+			  	"x": 1,
+				"all": "1"
+			  }
+  			]
+  		},
+  	}
+  },
   "200": {
     "id": "200",
     "name": "Undead Horde",
@@ -20131,7 +20180,7 @@ var CARDS = {
   "401": {
     "id": "401",
     "name": "Mining Cydroid",
-    "picture": "portrait_necromancer",
+    "picture": "portrait_portraits_miner_droid",
     "rarity": "4",
     "set": "9999",
     "card_type": "1",
@@ -20253,6 +20302,127 @@ var CARDS = {
           {
             "id": "protect",
             "x": 3,
+            "all": "1",
+          },
+        ],
+      },
+    }
+  },
+  "402": {
+    "id": "402",
+    "name": "Scyer of Fire",
+    "desc": "The name is Scyer, the Warden of Fire, prepare to expire!",
+    "picture": "portrait_chaos_mecha_hero",
+    "rarity": "4",
+    "set": "9999",
+    "card_type": "1",
+    "type": "2",
+    "sub_type": [],
+    "health": 59,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "imbue",
+        "x": 1,
+        "s": "burn",
+        "all": "1",
+      },
+      {
+        "id": "enhance",
+        "x": 1,
+        "s": "burn",
+      },
+      {
+        "id": "enrage",
+        "x": 1,
+        "all": "1",
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 62,
+        "skill": [],
+      },
+      "3": {
+        "health": 65,
+        "skill": [
+          {
+            "id": "imbue",
+            "x": 1,
+            "s": "burn",
+            "all": "1",
+          },
+          {
+            "id": "enhance",
+            "x": 2,
+            "s": "burn",
+          },
+          {
+            "id": "enrage",
+            "x": 1,
+            "all": "1",
+          },
+        ],
+      },
+      "4": {
+        "health": 68,
+        "skill": [
+          {
+            "id": "imbue",
+            "x": 1,
+            "s": "burn",
+            "all": "1",
+          },
+          {
+            "id": "enhance",
+            "x": 3,
+            "s": "burn",
+          },
+          {
+            "id": "enrage",
+            "x": 1,
+            "all": "1",
+          },
+        ],
+      },
+      "5": {
+        "health": 71,
+        "skill": [
+          {
+            "id": "imbue",
+            "x": 1,
+            "s": "burn",
+            "all": "1",
+          },
+          {
+            "id": "enhance",
+            "x": 4,
+            "s": "burn",
+          },
+          {
+            "id": "enrage",
+            "x": 1,
+            "all": "1",
+          },
+        ],
+      },
+      "6": {
+        "health": 75,
+        "skill": [
+          {
+            "id": "imbue",
+            "x": 2,
+            "s": "burn",
+            "all": "1",
+          },
+          {
+            "id": "enhance",
+            "x": 5,
+            "s": "burn",
+          },
+          {
+            "id": "enrage",
+            "x": 2,
             "all": "1",
           },
         ],
@@ -57753,6 +57923,546 @@ var CARDS = {
       },
     }
   },
+  "5161": {
+    "id": "5161",
+    "name": "Bolster Bot",
+    "picture": "Spiked_Barrier_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["16"],
+    "health": 22,
+    "attack": 3,
+    "cost": 3,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 2,
+      },
+      {
+        "id": "counter",
+        "x": 3,
+      },
+      {
+        "id": "protect",
+        "x": 2,
+        "y": "16",
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 23,
+        "skill": [],
+      },
+      "3": {
+        "health": 24,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 2,
+          },
+          {
+            "id": "counter",
+            "x": 4,
+          },
+          {
+            "id": "protect",
+            "x": 2,
+            "y": "16",
+          },
+        ],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 2,
+          },
+          {
+            "id": "counter",
+            "x": 4,
+          },
+          {
+            "id": "protect",
+            "x": 3,
+            "y": "16",
+          },
+        ],
+      },
+      "5": {
+        "health": 25,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 3,
+          },
+          {
+            "id": "counter",
+            "x": 4,
+          },
+          {
+            "id": "protect",
+            "x": 3,
+            "y": "16",
+          },
+        ],
+      },
+    }
+  },
+  "15161": {
+    "id": "15161",
+    "name": "Buffer Bot",
+    "picture": "Spiked_Barrier_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["16"],
+    "health": 25,
+    "attack": 3,
+    "cost": 3,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 3,
+      },
+      {
+        "id": "counter",
+        "x": 5,
+      },
+      {
+        "id": "protect",
+        "x": 3,
+        "y": "16",
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "attack": 4,
+        "health": 26,
+        "skill": [],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 3,
+          },
+          {
+            "id": "counter",
+            "x": 5,
+          },
+          {
+            "id": "protect",
+            "x": 4,
+            "y": "16",
+          },
+        ],
+      },
+      "4": {
+        "health": 27,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 3,
+          },
+          {
+            "id": "counter",
+            "x": 6,
+          },
+          {
+            "id": "protect",
+            "x": 4,
+            "y": "16",
+          },
+        ],
+      },
+      "5": {
+        "health": 28,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 4,
+          },
+          {
+            "id": "counter",
+            "x": 6,
+          },
+          {
+            "id": "protect",
+            "x": 4,
+            "y": "16",
+          },
+        ],
+      },
+    }
+  },
+  "25161": {
+    "id": "25161",
+    "name": "Bulwark Bot",
+    "picture": "Spiked_Barrier_Mecha_B",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["16"],
+    "health": 28,
+    "attack": 4,
+    "cost": 3,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 4,
+      },
+      {
+        "id": "counter",
+        "x": 6,
+      },
+      {
+        "id": "protect",
+        "x": 5,
+        "y": "16",
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 29,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 4,
+          },
+          {
+            "id": "counter",
+            "x": 7,
+          },
+          {
+            "id": "protect",
+            "x": 5,
+            "y": "16",
+          },
+        ],
+      },
+      "3": {
+        "attack": 5,
+        "skill": [],
+      },
+      "4": {
+        "health": 30,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 5,
+          },
+          {
+            "id": "counter",
+            "x": 7,
+          },
+          {
+            "id": "protect",
+            "x": 5,
+            "y": "16",
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 5,
+          },
+          {
+            "id": "counter",
+            "x": 8,
+          },
+          {
+            "id": "protect",
+            "x": 6,
+            "y": "16",
+          },
+        ],
+      },
+    }
+  },
+  "5162": {
+    "id": "5162",
+    "name": "Aloier, Dragon Sentinel",
+    "picture": "Mecha_Energy_Shield_Dragon_A",
+    "hidden_until": "1509037200000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["9","16"],
+    "health": 36,
+    "attack": 9,
+    "cost": 4,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 3,
+      },
+      {
+        "id": "protect",
+        "x": 2,
+        "y": "16",
+        "all": "1",
+      },
+      {
+        "id": "strike",
+        "x": 2,
+        "all": "1",
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 37,
+        "skill": [],
+      },
+      "3": {
+        "health": 38,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 3,
+          },
+          {
+            "id": "protect",
+            "x": 3,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "strike",
+            "x": 2,
+            "all": "1",
+          },
+        ],
+      },
+      "4": {
+        "health": 39,
+        "skill": [],
+      },
+      "5": {
+        "attack": 10,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 3,
+          },
+          {
+            "id": "protect",
+            "x": 3,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "strike",
+            "x": 3,
+            "all": "1",
+          },
+        ],
+      },
+      "6": {
+        "health": 40,
+        "skill": [],
+      },
+    }
+  },
+  "15162": {
+    "id": "15162",
+    "name": "Aloier, Matter Bender",
+    "picture": "Mecha_Energy_Shield_Dragon_A",
+    "hidden_until": "1509037200000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["9","16"],
+    "health": 41,
+    "attack": 10,
+    "cost": 4,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 4,
+      },
+      {
+        "id": "protect",
+        "x": 3,
+        "y": "16",
+        "all": "1",
+      },
+      {
+        "id": "strike",
+        "x": 3,
+        "all": "1",
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 42,
+        "skill": [],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 4,
+          },
+          {
+            "id": "protect",
+            "x": 4,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "strike",
+            "x": 4,
+            "all": "1",
+          },
+        ],
+      },
+      "4": {
+        "health": 43,
+        "skill": [],
+      },
+      "5": {
+        "attack": 11,
+        "health": 44,
+        "skill": [],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 5,
+          },
+          {
+            "id": "protect",
+            "x": 4,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "strike",
+            "x": 4,
+            "all": "1",
+          },
+        ],
+      },
+    }
+  },
+  "25162": {
+    "id": "25162",
+    "name": "Aloier, Reality Shaper",
+    "picture": "Mecha_Energy_Shield_Dragon_B",
+    "hidden_until": "1509037200000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["9","16"],
+    "health": 45,
+    "attack": 11,
+    "cost": 4,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 5,
+      },
+      {
+        "id": "protect",
+        "x": 5,
+        "y": "16",
+        "all": "1",
+      },
+      {
+        "id": "strike",
+        "x": 4,
+        "all": "1",
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 5,
+          },
+          {
+            "id": "protect",
+            "x": 5,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "strike",
+            "x": 5,
+            "all": "1",
+          },
+        ],
+      },
+      "3": {
+        "attack": 12,
+        "health": 46,
+        "skill": [],
+      },
+      "4": {
+        "health": 47,
+        "skill": [],
+      },
+      "5": {
+        "health": 48,
+        "skill": [
+          {
+            "id": "armored",
+            "x": 6,
+          },
+          {
+            "id": "protect",
+            "x": 5,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "strike",
+            "x": 5,
+            "all": "1",
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 6,
+          },
+          {
+            "id": "protect",
+            "x": 6,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "strike",
+            "x": 6,
+            "all": "1",
+          },
+        ],
+      },
+    }
+  },
   "6000": {
     "id": "6000",
     "name": "Furnace Mech",
@@ -83704,7 +84414,7 @@ var CARDS = {
     "set": "3000",
     "card_type": "2",
     "type": "2",
-    "sub_type": ["10","5"],
+    "sub_type": ["5","10"],
     "health": 16,
     "attack": 5,
     "cost": 2,
@@ -83763,7 +84473,7 @@ var CARDS = {
     "set": "3000",
     "card_type": "2",
     "type": "2",
-    "sub_type": ["10","5"],
+    "sub_type": ["5","10"],
     "health": 18,
     "attack": 5,
     "cost": 2,
@@ -83822,7 +84532,7 @@ var CARDS = {
     "set": "3000",
     "card_type": "2",
     "type": "2",
-    "sub_type": ["10","5"],
+    "sub_type": ["5","10"],
     "health": 20,
     "attack": 6,
     "cost": 2,
@@ -93202,6 +93912,663 @@ var CARDS = {
           {
             "id": "burn",
             "x": 5,
+          },
+        ],
+      },
+    }
+  },
+  "6157": {
+    "id": "6157",
+    "name": "Dawnblade Huntress",
+    "picture": "Mecha_Huntress_A",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 17,
+    "attack": 6,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "weaken",
+        "x": 1,
+        "all": "1",
+      },
+      {
+        "id": "pierce",
+        "x": 3,
+      },
+      {
+        "id": "nullify",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 18,
+        "skill": [],
+      },
+      "3": {
+        "health": 19,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 1,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 4,
+          },
+          {
+            "id": "nullify",
+            "x": 1,
+          },
+        ],
+      },
+      "5": {
+        "attack": 7,
+        "skill": [],
+      },
+      "6": {
+        "health": 20,
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 1,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 5,
+          },
+          {
+            "id": "nullify",
+            "x": 1,
+          },
+        ],
+      },
+    }
+  },
+  "16157": {
+    "id": "16157",
+    "name": "Duskblade Huntress",
+    "picture": "Mecha_Huntress_A",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 21,
+    "attack": 7,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "weaken",
+        "x": 1,
+        "all": "1",
+      },
+      {
+        "id": "pierce",
+        "x": 5,
+      },
+      {
+        "id": "nullify",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 5,
+          },
+          {
+            "id": "nullify",
+            "x": 1,
+          },
+        ],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 5,
+          },
+          {
+            "id": "nullify",
+            "x": 2,
+          },
+        ],
+      },
+      "4": {
+        "health": 22,
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 6,
+          },
+          {
+            "id": "nullify",
+            "x": 2,
+          },
+        ],
+      },
+      "5": {
+        "attack": 8,
+        "skill": [],
+      },
+      "6": {
+        "health": 23,
+        "skill": [],
+      },
+    }
+  },
+  "26157": {
+    "id": "26157",
+    "name": "Nightblade Huntress",
+    "picture": "Mecha_Huntress_B",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 24,
+    "attack": 8,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "weaken",
+        "x": 2,
+        "all": "1",
+      },
+      {
+        "id": "pierce",
+        "x": 6,
+      },
+      {
+        "id": "nullify",
+        "x": 2,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 25,
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 7,
+          },
+          {
+            "id": "nullify",
+            "x": 2,
+          },
+        ],
+      },
+      "3": {
+        "attack": 9,
+        "skill": [],
+      },
+      "4": {
+        "health": 26,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 3,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 7,
+          },
+          {
+            "id": "nullify",
+            "x": 2,
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "weaken",
+            "x": 3,
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 8,
+          },
+          {
+            "id": "nullify",
+            "x": 3,
+          },
+        ],
+      },
+    }
+  },
+  "6158": {
+    "id": "6158",
+    "name": "Orbos",
+    "desc": "\"Fire is bad.\" - Novice Adventurer's Advice Volume II",
+    "picture": "Drone_Orb_A",
+    "hidden_until": "1509037200000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 7,
+    "attack": 1,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "burn",
+        "x": 1,
+      },
+      {
+        "id": "flurry",
+        "c": 8,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "burn",
+            "x": 1,
+          },
+          {
+            "id": "flurry",
+            "c": 7,
+          },
+        ],
+      },
+      "3": {
+        "health": 8,
+        "skill": [],
+      },
+      "4": {
+        "health": 9,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "burn",
+            "x": 1,
+          },
+          {
+            "id": "flurry",
+            "c": 6,
+          },
+        ],
+      },
+    }
+  },
+  "16158": {
+    "id": "16158",
+    "name": "Targeting Orbos",
+    "desc": "\"Fire is best to be avoided.\" - Novice Adventurer's Advice Volume IV",
+    "picture": "Drone_Orb_A",
+    "hidden_until": "1509037200000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 10,
+    "attack": 1,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "burn",
+        "x": 2,
+      },
+      {
+        "id": "flurry",
+        "c": 6,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 11,
+        "skill": [],
+      },
+      "3": {
+        "health": 12,
+        "skill": [],
+      },
+      "4": {
+        "health": 13,
+        "skill": [
+          {
+            "id": "burn",
+            "x": 2,
+          },
+          {
+            "id": "flurry",
+            "c": 5,
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "burn",
+            "x": 3,
+          },
+          {
+            "id": "flurry",
+            "c": 5,
+          },
+        ],
+      },
+    }
+  },
+  "26158": {
+    "id": "26158",
+    "name": "Firebeam Orbos",
+    "desc": "\"Not again!\"",
+    "picture": "Drone_Orb_B",
+    "hidden_until": "1509037200000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 14,
+    "attack": 1,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "burn",
+        "x": 3,
+      },
+      {
+        "id": "flurry",
+        "c": 5,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "burn",
+            "x": 3,
+          },
+          {
+            "id": "flurry",
+            "c": 4,
+          },
+        ],
+      },
+      "3": {
+        "health": 15,
+        "skill": [],
+      },
+      "4": {
+        "health": 16,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "burn",
+            "x": 4,
+          },
+          {
+            "id": "flurry",
+            "c": 4,
+          },
+        ],
+      },
+    }
+  },
+  "6161": {
+    "id": "6161",
+    "name": "Torero",
+    "picture": "Skull_Mecha_Undead_A",
+    "hidden_until": "1508778000000",
+    "rarity": "4",
+    "set": "4000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["7","16"],
+    "health": 17,
+    "attack": 4,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "corrosive",
+        "x": 2,
+      },
+      {
+        "id": "berserk",
+        "x": 1,
+      },
+      {
+        "id": "flurry",
+        "c": 5,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 2,
+          },
+          {
+            "id": "berserk",
+            "x": 1,
+          },
+          {
+            "id": "flurry",
+            "c": 4,
+          },
+        ],
+      },
+      "3": {
+        "health": 18,
+        "skill": [],
+      },
+      "4": {
+        "health": 19,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 3,
+          },
+          {
+            "id": "berserk",
+            "x": 1,
+          },
+          {
+            "id": "flurry",
+            "c": 4,
+          },
+        ],
+      },
+      "6": {
+        "health": 20,
+        "skill": [],
+      },
+    }
+  },
+  "16161": {
+    "id": "16161",
+    "name": "Torero Terminator",
+    "picture": "Skull_Mecha_Undead_A",
+    "hidden_until": "1508778000000",
+    "rarity": "4",
+    "set": "4000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["7","16"],
+    "health": 21,
+    "attack": 4,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "corrosive",
+        "x": 3,
+      },
+      {
+        "id": "berserk",
+        "x": 1,
+      },
+      {
+        "id": "flurry",
+        "c": 4,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "attack": 5,
+        "skill": [],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 4,
+          },
+          {
+            "id": "berserk",
+            "x": 1,
+          },
+          {
+            "id": "flurry",
+            "c": 4,
+          },
+        ],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 4,
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+          {
+            "id": "flurry",
+            "c": 3,
+          },
+        ],
+      },
+      "5": {
+        "health": 22,
+        "skill": [],
+      },
+      "6": {
+        "health": 23,
+        "skill": [],
+      },
+    }
+  },
+  "26161": {
+    "id": "26161",
+    "name": "Torero Terror",
+    "picture": "Skull_Mecha_Undead_B",
+    "hidden_until": "1508778000000",
+    "rarity": "4",
+    "set": "4000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["7","16"],
+    "health": 23,
+    "attack": 5,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "corrosive",
+        "x": 5,
+      },
+      {
+        "id": "berserk",
+        "x": 2,
+      },
+      {
+        "id": "flurry",
+        "c": 3,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 24,
+        "skill": [],
+      },
+      "3": {
+        "health": 25,
+        "skill": [],
+      },
+      "4": {
+        "attack": 6,
+        "skill": [],
+      },
+      "5": {
+        "health": 26,
+        "skill": [],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 6,
+          },
+          {
+            "id": "berserk",
+            "x": 3,
+          },
+          {
+            "id": "flurry",
+            "c": 3,
           },
         ],
       },
@@ -130843,6 +132210,758 @@ var CARDS = {
       },
     }
   },
+  "7161": {
+    "id": "7161",
+    "name": "Alphamecha",
+    "picture": "Mecha_Wolf_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["16"],
+    "health": 10,
+    "attack": 1,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "enrage",
+        "x": 1,
+        "y": "16",
+      },
+      {
+        "id": "leech",
+        "x": 2,
+      },
+      {
+        "id": "berserk",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 11,
+        "skill": [],
+      },
+      "3": {
+        "health": 12,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 1,
+            "y": "16",
+          },
+          {
+            "id": "leech",
+            "x": 3,
+          },
+          {
+            "id": "berserk",
+            "x": 1,
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 2,
+            "y": "16",
+          },
+          {
+            "id": "leech",
+            "x": 3,
+          },
+          {
+            "id": "berserk",
+            "x": 1,
+          },
+        ],
+      },
+    }
+  },
+  "17161": {
+    "id": "17161",
+    "name": "Alphamech Trapper ",
+    "picture": "Mecha_Wolf_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["16"],
+    "health": 13,
+    "attack": 1,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "enrage",
+        "x": 2,
+        "y": "16",
+      },
+      {
+        "id": "leech",
+        "x": 4,
+      },
+      {
+        "id": "berserk",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 2,
+            "y": "16",
+          },
+          {
+            "id": "leech",
+            "x": 4,
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+        ],
+      },
+      "3": {
+        "health": 14,
+        "skill": [],
+      },
+      "4": {
+        "health": 15,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 3,
+            "y": "16",
+          },
+          {
+            "id": "leech",
+            "x": 4,
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+        ],
+      },
+    }
+  },
+  "27161": {
+    "id": "27161",
+    "name": "Alphamech Stalker",
+    "picture": "Mecha_Wolf_B",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "3000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["16"],
+    "health": 16,
+    "attack": 1,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "enrage",
+        "x": 3,
+        "y": "16",
+      },
+      {
+        "id": "leech",
+        "x": 5,
+      },
+      {
+        "id": "berserk",
+        "x": 2,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "attack": 2,
+        "skill": [],
+      },
+      "3": {
+        "health": 17,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 4,
+            "y": "16",
+          },
+          {
+            "id": "leech",
+            "x": 5,
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 4,
+            "y": "16",
+          },
+          {
+            "id": "leech",
+            "x": 6,
+          },
+          {
+            "id": "berserk",
+            "x": 3,
+          },
+        ],
+      },
+    }
+  },
+  "7162": {
+    "id": "7162",
+    "name": "Timberhead Diver",
+    "picture": "Finned_Lizardman_Mecha_A",
+    "hidden_until": "1509037200000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["4","16"],
+    "health": 11,
+    "attack": 5,
+    "cost": 1,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "pierce",
+        "x": 3,
+      },
+      {
+        "id": "poison",
+        "x": 2,
+      },
+      {
+        "id": "leech",
+        "x": 2,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 12,
+        "skill": [],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 4,
+          },
+          {
+            "id": "poison",
+            "x": 2,
+          },
+          {
+            "id": "leech",
+            "x": 2,
+          },
+        ],
+      },
+      "4": {
+        "health": 13,
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 4,
+          },
+          {
+            "id": "poison",
+            "x": 3,
+          },
+          {
+            "id": "leech",
+            "x": 2,
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 4,
+          },
+          {
+            "id": "poison",
+            "x": 3,
+          },
+          {
+            "id": "leech",
+            "x": 3,
+          },
+        ],
+      },
+      "6": {
+        "attack": 6,
+        "skill": [],
+      },
+    }
+  },
+  "17162": {
+    "id": "17162",
+    "name": "Timberhead Angler",
+    "picture": "Finned_Lizardman_Mecha_A",
+    "hidden_until": "1509037200000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["4","16"],
+    "health": 14,
+    "attack": 6,
+    "cost": 1,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "pierce",
+        "x": 5,
+      },
+      {
+        "id": "poison",
+        "x": 3,
+      },
+      {
+        "id": "leech",
+        "x": 3,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 5,
+          },
+          {
+            "id": "poison",
+            "x": 4,
+          },
+          {
+            "id": "leech",
+            "x": 3,
+          },
+        ],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 5,
+          },
+          {
+            "id": "poison",
+            "x": 4,
+          },
+          {
+            "id": "leech",
+            "x": 4,
+          },
+        ],
+      },
+      "4": {
+        "health": 15,
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 6,
+          },
+          {
+            "id": "poison",
+            "x": 4,
+          },
+          {
+            "id": "leech",
+            "x": 4,
+          },
+        ],
+      },
+      "5": {
+        "attack": 7,
+        "skill": [],
+      },
+      "6": {
+        "health": 16,
+        "skill": [],
+      },
+    }
+  },
+  "27162": {
+    "id": "27162",
+    "name": "Timberhead Fuscina",
+    "picture": "Finned_Lizardman_Mecha_B",
+    "hidden_until": "1509037200000",
+    "rarity": "4",
+    "set": "3000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["4","16"],
+    "health": 16,
+    "attack": 7,
+    "cost": 1,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "pierce",
+        "x": 6,
+      },
+      {
+        "id": "poison",
+        "x": 5,
+      },
+      {
+        "id": "leech",
+        "x": 5,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 7,
+          },
+          {
+            "id": "poison",
+            "x": 5,
+          },
+          {
+            "id": "leech",
+            "x": 5,
+          },
+        ],
+      },
+      "3": {
+        "health": 17,
+        "skill": [],
+      },
+      "4": {
+        "attack": 8,
+        "health": 18,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 7,
+          },
+          {
+            "id": "poison",
+            "x": 6,
+          },
+          {
+            "id": "leech",
+            "x": 5,
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "pierce",
+            "x": 8,
+          },
+          {
+            "id": "poison",
+            "x": 6,
+          },
+          {
+            "id": "leech",
+            "x": 6,
+          },
+        ],
+      },
+    }
+  },
+  "7165": {
+    "id": "7165",
+    "name": "Raging Irontusk",
+    "picture": "Aztec_Mecha_Frog_War_Elephant_A",
+    "hidden_until": "1509382800000",
+    "rarity": "4",
+    "set": "4000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["4","16"],
+    "health": 38,
+    "attack": 8,
+    "cost": 4,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "corrosive",
+        "x": 3,
+      },
+      {
+        "id": "enrage",
+        "x": 2,
+        "all": "1",
+      },
+      {
+        "id": "berserk",
+        "x": 2,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 39,
+        "skill": [],
+      },
+      "3": {
+        "attack": 9,
+        "health": 40,
+        "skill": [],
+      },
+      "4": {
+        "health": 41,
+        "skill": [],
+      },
+      "5": {
+        "health": 42,
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 4,
+          },
+          {
+            "id": "enrage",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 4,
+          },
+          {
+            "id": "enrage",
+            "x": 3,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+        ],
+      },
+    }
+  },
+  "17165": {
+    "id": "17165",
+    "name": "Thundering Irontusk",
+    "picture": "Aztec_Mecha_Frog_War_Elephant_A",
+    "hidden_until": "1509382800000",
+    "rarity": "4",
+    "set": "4000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["4","16"],
+    "health": 43,
+    "attack": 9,
+    "cost": 4,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "corrosive",
+        "x": 4,
+      },
+      {
+        "id": "enrage",
+        "x": 3,
+        "all": "1",
+      },
+      {
+        "id": "berserk",
+        "x": 3,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "attack": 10,
+        "skill": [],
+      },
+      "3": {
+        "health": 44,
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 5,
+          },
+          {
+            "id": "enrage",
+            "x": 3,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 3,
+          },
+        ],
+      },
+      "4": {
+        "health": 45,
+        "skill": [],
+      },
+      "5": {
+        "health": 46,
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 5,
+          },
+          {
+            "id": "enrage",
+            "x": 4,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 3,
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 5,
+          },
+          {
+            "id": "enrage",
+            "x": 4,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 4,
+          },
+        ],
+      },
+    }
+  },
+  "27165": {
+    "id": "27165",
+    "name": "Wrathstomp Irontusk",
+    "picture": "Aztec_Mecha_Frog_War_Elephant_B",
+    "hidden_until": "1509382800000",
+    "rarity": "4",
+    "set": "4000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["4","16"],
+    "health": 47,
+    "attack": 11,
+    "cost": 4,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "corrosive",
+        "x": 5,
+      },
+      {
+        "id": "enrage",
+        "x": 4,
+        "all": "1",
+      },
+      {
+        "id": "berserk",
+        "x": 4,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 6,
+          },
+          {
+            "id": "enrage",
+            "x": 4,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 4,
+          },
+        ],
+      },
+      "3": {
+        "attack": 12,
+        "health": 48,
+        "skill": [],
+      },
+      "4": {
+        "health": 49,
+        "skill": [],
+      },
+      "5": {
+        "health": 50,
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 7,
+          },
+          {
+            "id": "enrage",
+            "x": 4,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 4,
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "corrosive",
+            "x": 7,
+          },
+          {
+            "id": "enrage",
+            "x": 5,
+            "all": "1",
+          },
+          {
+            "id": "berserk",
+            "x": 5,
+          },
+        ],
+      },
+    }
+  },
   "2000": {
     "id": "2000",
     "name": "Wasteland Nomad",
@@ -153192,6 +155311,1122 @@ var CARDS = {
             "x": 6,
             "y": "4",
             "all": "1",
+          },
+        ],
+      },
+    }
+  },
+  "2109": {
+    "id": "2109",
+    "name": "Scorchfist Avenger",
+    "picture": "Fire_Warrior_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 11,
+    "attack": 4,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "counter",
+        "x": 2,
+      },
+      {
+        "id": "enfeeble",
+        "x": 1,
+      },
+      {
+        "id": "burn",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 12,
+        "skill": [],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "counter",
+            "x": 3,
+          },
+          {
+            "id": "enfeeble",
+            "x": 1,
+          },
+          {
+            "id": "burn",
+            "x": 1,
+          },
+        ],
+      },
+      "4": {
+        "health": 13,
+        "skill": [],
+      },
+      "5": {
+        "attack": 5,
+        "skill": [],
+      },
+    }
+  },
+  "12109": {
+    "id": "12109",
+    "name": "Burnfist Avenger",
+    "picture": "Fire_Warrior_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 13,
+    "attack": 5,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "counter",
+        "x": 4,
+      },
+      {
+        "id": "enfeeble",
+        "x": 1,
+      },
+      {
+        "id": "burn",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "counter",
+            "x": 4,
+          },
+          {
+            "id": "enfeeble",
+            "x": 2,
+          },
+          {
+            "id": "burn",
+            "x": 1,
+          },
+        ],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "counter",
+            "x": 4,
+          },
+          {
+            "id": "enfeeble",
+            "x": 2,
+          },
+          {
+            "id": "burn",
+            "x": 2,
+          },
+        ],
+      },
+      "4": {
+        "health": 14,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "counter",
+            "x": 5,
+          },
+          {
+            "id": "enfeeble",
+            "x": 2,
+          },
+          {
+            "id": "burn",
+            "x": 2,
+          },
+        ],
+      },
+    }
+  },
+  "22109": {
+    "id": "22109",
+    "name": "Moltenfist Avenger",
+    "picture": "Fire_Warrior_Mecha_B",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 15,
+    "attack": 5,
+    "cost": 1,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "counter",
+        "x": 5,
+      },
+      {
+        "id": "enfeeble",
+        "x": 2,
+      },
+      {
+        "id": "burn",
+        "x": 2,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "attack": 6,
+        "skill": [],
+      },
+      "3": {
+        "health": 16,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "counter",
+            "x": 6,
+          },
+          {
+            "id": "enfeeble",
+            "x": 2,
+          },
+          {
+            "id": "burn",
+            "x": 2,
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "counter",
+            "x": 6,
+          },
+          {
+            "id": "enfeeble",
+            "x": 3,
+          },
+          {
+            "id": "burn",
+            "x": 3,
+          },
+        ],
+      },
+    }
+  },
+  "2110": {
+    "id": "2110",
+    "name": "Weathered Widgit",
+    "picture": "Avatar_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["16"],
+    "health": 24,
+    "attack": 5,
+    "cost": 3,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "heal",
+        "x": 1,
+        "all": "1",
+      },
+      {
+        "id": "jam",
+        "c": 6,
+      },
+      {
+        "id": "poison",
+        "x": 3,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "heal",
+            "x": 1,
+            "all": "1",
+          },
+          {
+            "id": "jam",
+            "c": 5,
+          },
+          {
+            "id": "poison",
+            "x": 3,
+          },
+        ],
+      },
+      "3": {
+        "health": 25,
+        "skill": [],
+      },
+      "4": {
+        "health": 26,
+        "skill": [
+          {
+            "id": "heal",
+            "x": 1,
+            "all": "1",
+          },
+          {
+            "id": "jam",
+            "c": 5,
+          },
+          {
+            "id": "poison",
+            "x": 4,
+          },
+        ],
+      },
+      "5": {
+        "attack": 6,
+        "skill": [],
+      },
+    }
+  },
+  "12110": {
+    "id": "12110",
+    "name": "Weathered Druid",
+    "picture": "Avatar_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["16"],
+    "health": 27,
+    "attack": 6,
+    "cost": 3,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "heal",
+        "x": 1,
+        "all": "1",
+      },
+      {
+        "id": "jam",
+        "c": 4,
+      },
+      {
+        "id": "poison",
+        "x": 4,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 28,
+        "skill": [],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "heal",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "jam",
+            "c": 4,
+          },
+          {
+            "id": "poison",
+            "x": 5,
+          },
+        ],
+      },
+      "4": {
+        "health": 29,
+        "skill": [],
+      },
+      "5": {
+        "attack": 7,
+        "skill": [],
+      },
+    }
+  },
+  "22110": {
+    "id": "22110",
+    "name": "Weathered Archdruid",
+    "picture": "Avatar_Mecha_B",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "3",
+    "sub_type": ["16"],
+    "health": 30,
+    "attack": 7,
+    "cost": 3,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "heal",
+        "x": 2,
+        "all": "1",
+      },
+      {
+        "id": "jam",
+        "c": 3,
+      },
+      {
+        "id": "poison",
+        "x": 5,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "heal",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "jam",
+            "c": 3,
+          },
+          {
+            "id": "poison",
+            "x": 6,
+          },
+        ],
+      },
+      "3": {
+        "attack": 8,
+        "health": 31,
+        "skill": [],
+      },
+      "4": {
+        "health": 32,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "heal",
+            "x": 3,
+            "all": "1",
+          },
+          {
+            "id": "jam",
+            "c": 3,
+          },
+          {
+            "id": "poison",
+            "x": 7,
+          },
+        ],
+      },
+    }
+  },
+  "2111": {
+    "id": "2111",
+    "name": "Drillbot",
+    "picture": "Drill_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 14,
+    "attack": 5,
+    "cost": 2,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "enrage",
+        "x": 1,
+        "y": "16",
+        "all": "1",
+      },
+      {
+        "id": "pierce",
+        "x": 2,
+      },
+      {
+        "id": "berserk",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 15,
+        "skill": [],
+      },
+      "3": {
+        "health": 16,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 1,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 3,
+          },
+          {
+            "id": "berserk",
+            "x": 1,
+          },
+        ],
+      },
+      "5": {
+        "attack": 6,
+        "health": 17,
+        "skill": [],
+      },
+    }
+  },
+  "12111": {
+    "id": "12111",
+    "name": "Piercing Drillbot",
+    "picture": "Drill_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 18,
+    "attack": 6,
+    "cost": 2,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "enrage",
+        "x": 1,
+        "y": "16",
+        "all": "1",
+      },
+      {
+        "id": "pierce",
+        "x": 3,
+      },
+      {
+        "id": "berserk",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 1,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 4,
+          },
+          {
+            "id": "berserk",
+            "x": 1,
+          },
+        ],
+      },
+      "3": {
+        "health": 19,
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 1,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 4,
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+        ],
+      },
+      "4": {
+        "attack": 7,
+        "skill": [],
+      },
+      "5": {
+        "health": 20,
+        "skill": [],
+      },
+    }
+  },
+  "22111": {
+    "id": "22111",
+    "name": "Spiral Drillbot",
+    "picture": "Drill_Mecha_B",
+    "hidden_until": "1508432400000",
+    "rarity": "3",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["16"],
+    "health": 20,
+    "attack": 7,
+    "cost": 2,
+    "maxLevel": 5,
+    "skill": [
+      {
+        "id": "enrage",
+        "x": 1,
+        "y": "16",
+        "all": "1",
+      },
+      {
+        "id": "pierce",
+        "x": 5,
+      },
+      {
+        "id": "berserk",
+        "x": 2,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "attack": 8,
+        "health": 21,
+        "skill": [],
+      },
+      "3": {
+        "health": 22,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 2,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 5,
+          },
+          {
+            "id": "berserk",
+            "x": 2,
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "enrage",
+            "x": 2,
+            "y": "16",
+            "all": "1",
+          },
+          {
+            "id": "pierce",
+            "x": 6,
+          },
+          {
+            "id": "berserk",
+            "x": 3,
+          },
+        ],
+      },
+    }
+  },
+  "2112": {
+    "id": "2112",
+    "name": "Warrior Karna",
+    "picture": "Insect_Champion_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["13","16"],
+    "health": 11,
+    "attack": 5,
+    "cost": 1,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "evade",
+        "x": 1,
+      },
+      {
+        "id": "burn",
+        "x": 1,
+      },
+      {
+        "id": "nullify",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 12,
+        "skill": [],
+      },
+      "3": {
+        "health": 13,
+        "skill": [],
+      },
+      "4": {
+        "attack": 6,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "evade",
+            "x": 1,
+          },
+          {
+            "id": "burn",
+            "x": 2,
+          },
+          {
+            "id": "nullify",
+            "x": 1,
+          },
+        ],
+      },
+      "6": {
+        "health": 14,
+        "skill": [],
+      },
+    }
+  },
+  "12112": {
+    "id": "12112",
+    "name": "Champion Karna",
+    "picture": "Insect_Champion_Mecha_A",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["13","16"],
+    "health": 15,
+    "attack": 6,
+    "cost": 1,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "evade",
+        "x": 1,
+      },
+      {
+        "id": "burn",
+        "x": 2,
+      },
+      {
+        "id": "nullify",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "evade",
+            "x": 2,
+          },
+          {
+            "id": "burn",
+            "x": 2,
+          },
+          {
+            "id": "nullify",
+            "x": 1,
+          },
+        ],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "evade",
+            "x": 2,
+          },
+          {
+            "id": "burn",
+            "x": 2,
+          },
+          {
+            "id": "nullify",
+            "x": 2,
+          },
+        ],
+      },
+      "4": {
+        "health": 16,
+        "skill": [],
+      },
+      "5": {
+        "attack": 7,
+        "skill": [],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "evade",
+            "x": 2,
+          },
+          {
+            "id": "burn",
+            "x": 3,
+          },
+          {
+            "id": "nullify",
+            "x": 2,
+          },
+        ],
+      },
+    }
+  },
+  "22112": {
+    "id": "22112",
+    "name": "Vindicator Karna",
+    "picture": "Insect_Champion_Mecha_B",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "2000",
+    "card_type": "2",
+    "type": "2",
+    "sub_type": ["13","16"],
+    "health": 17,
+    "attack": 7,
+    "cost": 1,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "evade",
+        "x": 2,
+      },
+      {
+        "id": "burn",
+        "x": 3,
+      },
+      {
+        "id": "nullify",
+        "x": 2,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 18,
+        "skill": [],
+      },
+      "3": {
+        "attack": 8,
+        "skill": [],
+      },
+      "4": {
+        "health": 19,
+        "skill": [],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "evade",
+            "x": 3,
+          },
+          {
+            "id": "burn",
+            "x": 3,
+          },
+          {
+            "id": "nullify",
+            "x": 2,
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "evade",
+            "x": 3,
+          },
+          {
+            "id": "burn",
+            "x": 4,
+          },
+          {
+            "id": "nullify",
+            "x": 3,
+          },
+        ],
+      },
+    }
+  },
+  "2113": {
+    "id": "2113",
+    "name": "Vali, the Thunderer",
+    "picture": "Underwater_Temple_Guardian_A",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "2000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["16"],
+    "health": 16,
+    "attack": 6,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 1,
+      },
+      {
+        "id": "strike",
+        "x": 1,
+        "all": "1",
+      },
+      {
+        "id": "frost",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "health": 17,
+        "skill": [],
+      },
+      "3": {
+        "health": 18,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 2,
+          },
+          {
+            "id": "strike",
+            "x": 1,
+            "all": "1",
+          },
+          {
+            "id": "frost",
+            "x": 1,
+          },
+        ],
+      },
+      "5": {
+        "health": 19,
+        "skill": [],
+      },
+      "6": {
+        "attack": 7,
+        "skill": [],
+      },
+    }
+  },
+  "12113": {
+    "id": "12113",
+    "name": "Vali, the Destroyer",
+    "picture": "Underwater_Temple_Guardian_A",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "2000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["16"],
+    "health": 20,
+    "attack": 7,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 2,
+      },
+      {
+        "id": "strike",
+        "x": 1,
+        "all": "1",
+      },
+      {
+        "id": "frost",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 3,
+          },
+          {
+            "id": "strike",
+            "x": 1,
+            "all": "1",
+          },
+          {
+            "id": "frost",
+            "x": 1,
+          },
+        ],
+      },
+      "3": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 3,
+          },
+          {
+            "id": "strike",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "frost",
+            "x": 1,
+          },
+        ],
+      },
+      "4": {
+        "health": 21,
+        "skill": [],
+      },
+      "5": {
+        "health": 22,
+        "skill": [],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 4,
+          },
+          {
+            "id": "strike",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "frost",
+            "x": 1,
+          },
+        ],
+      },
+    }
+  },
+  "22113": {
+    "id": "22113",
+    "name": "Vali, the Vanquisher",
+    "picture": "Underwater_Temple_Guardian_B",
+    "hidden_until": "1508432400000",
+    "rarity": "4",
+    "set": "2000",
+    "card_type": "2",
+    "type": "1",
+    "sub_type": ["16"],
+    "health": 23,
+    "attack": 7,
+    "cost": 2,
+    "maxLevel": 6,
+    "skill": [
+      {
+        "id": "armored",
+        "x": 4,
+      },
+      {
+        "id": "strike",
+        "x": 2,
+        "all": "1",
+      },
+      {
+        "id": "frost",
+        "x": 1,
+      },
+    ],
+    "upgrades": {
+      "2": {
+        "attack": 8,
+        "skill": [],
+      },
+      "3": {
+        "health": 24,
+        "skill": [],
+      },
+      "4": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 5,
+          },
+          {
+            "id": "strike",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "frost",
+            "x": 1,
+          },
+        ],
+      },
+      "5": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 5,
+          },
+          {
+            "id": "strike",
+            "x": 2,
+            "all": "1",
+          },
+          {
+            "id": "frost",
+            "x": 2,
+          },
+        ],
+      },
+      "6": {
+        "skill": [
+          {
+            "id": "armored",
+            "x": 5,
+          },
+          {
+            "id": "strike",
+            "x": 3,
+            "all": "1",
+          },
+          {
+            "id": "frost",
+            "x": 2,
           },
         ],
       },
@@ -183471,7 +186706,7 @@ var CARDS = {
     "card_type": "2",
     "type": "1",
     "sub_type": ["16"],
-    "health": 49,
+    "health": 43,
     "attack": 10,
     "cost": 4,
     "maxLevel": 6,
@@ -183492,7 +186727,7 @@ var CARDS = {
     "upgrades": {
       "2": {
         "attack": 11,
-        "health": 50,
+        "health": 44,
         "skill": [
           {
             "id": "armored",
@@ -183510,7 +186745,7 @@ var CARDS = {
       },
       "3": {
         "attack": 12,
-        "health": 51,
+        "health": 45,
         "skill": [
           {
             "id": "armored",
@@ -183527,8 +186762,8 @@ var CARDS = {
         ],
       },
       "4": {
-        "attack": 13,
-        "health": 52,
+        "attack": 12,
+        "health": 48,
         "skill": [
           {
             "id": "armored",
@@ -183545,8 +186780,8 @@ var CARDS = {
         ],
       },
       "5": {
-        "attack": 14,
-        "health": 53,
+        "attack": 13,
+        "health": 49,
         "skill": [
           {
             "id": "armored",
@@ -183563,8 +186798,8 @@ var CARDS = {
         ],
       },
       "6": {
-        "attack": 15,
-        "health": 55,
+        "attack": 13,
+        "health": 50,
         "skill": [
           {
             "id": "armored",
@@ -183700,7 +186935,22 @@ var CARDS = {
   "9999": {
     "id": "9999",
     "name": "Unused Art",
-    "picture": "Aria_A",
+    "picture": "Ancient_Goblin_Mecha_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19999": {
+    "id": "19999",
+    "name": "Unused Art",
+    "picture": "Ancient_Goblin_Mecha_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183715,22 +186965,7 @@ var CARDS = {
   "9998": {
     "id": "9998",
     "name": "Unused Art",
-    "picture": "Brimstone_Priest_Frog_A",
-    "rarity": "0",
-    "card_type": "2",
-    "type": "0",
-    "sub_type": [],
-    "health": -1,
-    "attack": -1,
-    "cost": -1,
-    "maxLevel": 1,
-    "skill": [],
-    "upgrades": {}
-  },
-  "19998": {
-    "id": "19998",
-    "name": "Unused Art",
-    "picture": "Brimstone_Priest_Frog_B",
+    "picture": "Aria_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183745,7 +186980,7 @@ var CARDS = {
   "9997": {
     "id": "9997",
     "name": "Unused Art",
-    "picture": "Cicada_Crier_A",
+    "picture": "Brimstone_Priest_Frog_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183760,7 +186995,7 @@ var CARDS = {
   "19997": {
     "id": "19997",
     "name": "Unused Art",
-    "picture": "Cicada_Crier_B",
+    "picture": "Brimstone_Priest_Frog_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183775,7 +187010,22 @@ var CARDS = {
   "9996": {
     "id": "9996",
     "name": "Unused Art",
-    "picture": "Elyse_A",
+    "picture": "Cicada_Crier_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19996": {
+    "id": "19996",
+    "name": "Unused Art",
+    "picture": "Cicada_Crier_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183790,7 +187040,7 @@ var CARDS = {
   "9995": {
     "id": "9995",
     "name": "Unused Art",
-    "picture": "Frog_Guardian_Dragon_A",
+    "picture": "Elyse_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183802,10 +187052,10 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "19995": {
-    "id": "19995",
+  "9994": {
+    "id": "9994",
     "name": "Unused Art",
-    "picture": "Frog_Guardian_Dragon_B",
+    "picture": "Frog_Guardian_Dragon_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183820,7 +187070,7 @@ var CARDS = {
   "19994": {
     "id": "19994",
     "name": "Unused Art",
-    "picture": "Frost_Bite_B",
+    "picture": "Frog_Guardian_Dragon_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183832,10 +187082,10 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "9993": {
-    "id": "9993",
+  "19993": {
+    "id": "19993",
     "name": "Unused Art",
-    "picture": "General_A",
+    "picture": "Frost_Bite_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183850,22 +187100,7 @@ var CARDS = {
   "9992": {
     "id": "9992",
     "name": "Unused Art",
-    "picture": "Giant_Mosquito_A",
-    "rarity": "0",
-    "card_type": "2",
-    "type": "0",
-    "sub_type": [],
-    "health": -1,
-    "attack": -1,
-    "cost": -1,
-    "maxLevel": 1,
-    "skill": [],
-    "upgrades": {}
-  },
-  "19992": {
-    "id": "19992",
-    "name": "Unused Art",
-    "picture": "Giant_Mosquito_B",
+    "picture": "General_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183880,7 +187115,7 @@ var CARDS = {
   "9991": {
     "id": "9991",
     "name": "Unused Art",
-    "picture": "Mergoat_Capricorn_A",
+    "picture": "Giant_Mosquito_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183895,7 +187130,7 @@ var CARDS = {
   "19991": {
     "id": "19991",
     "name": "Unused Art",
-    "picture": "Mergoat_Capricorn_B",
+    "picture": "Giant_Mosquito_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183910,7 +187145,7 @@ var CARDS = {
   "9990": {
     "id": "9990",
     "name": "Unused Art",
-    "picture": "Merman_Guardian_A",
+    "picture": "Hedgehog_Mecha_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183925,7 +187160,7 @@ var CARDS = {
   "19990": {
     "id": "19990",
     "name": "Unused Art",
-    "picture": "Merman_Guardian_B",
+    "picture": "Hedgehog_Mecha_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183937,10 +187172,10 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "29989": {
-    "id": "29989",
+  "9989": {
+    "id": "9989",
     "name": "Unused Art",
-    "picture": "Monster_C",
+    "picture": "Mecha_Angel_Starwarrior_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183952,10 +187187,55 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "29988": {
-    "id": "29988",
+  "19989": {
+    "id": "19989",
     "name": "Unused Art",
-    "picture": "Mythic_Avian_C",
+    "picture": "Mecha_Angel_Starwarrior_B",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9988": {
+    "id": "9988",
+    "name": "Unused Art",
+    "picture": "Mecha_Bull_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19988": {
+    "id": "19988",
+    "name": "Unused Art",
+    "picture": "Mecha_Bull_B",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9987": {
+    "id": "9987",
+    "name": "Unused Art",
+    "picture": "Mecha_Centaur_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183970,7 +187250,7 @@ var CARDS = {
   "19987": {
     "id": "19987",
     "name": "Unused Art",
-    "picture": "Mythic_Dragon_B",
+    "picture": "Mecha_Centaur_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -183985,7 +187265,22 @@ var CARDS = {
   "9986": {
     "id": "9986",
     "name": "Unused Art",
-    "picture": "Mythic_Seafolk_A",
+    "picture": "Mecha_Tribal_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19986": {
+    "id": "19986",
+    "name": "Unused Art",
+    "picture": "Mecha_Tribal_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184000,7 +187295,7 @@ var CARDS = {
   "9985": {
     "id": "9985",
     "name": "Unused Art",
-    "picture": "Oda_A",
+    "picture": "Mergoat_Capricorn_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184015,7 +187310,7 @@ var CARDS = {
   "19985": {
     "id": "19985",
     "name": "Unused Art",
-    "picture": "Oda_B",
+    "picture": "Mergoat_Capricorn_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184027,10 +187322,10 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "29985": {
-    "id": "29985",
+  "9984": {
+    "id": "9984",
     "name": "Unused Art",
-    "picture": "Oda_C",
+    "picture": "Merman_Guardian_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184045,7 +187340,7 @@ var CARDS = {
   "19984": {
     "id": "19984",
     "name": "Unused Art",
-    "picture": "Promo_Dragon_B",
+    "picture": "Merman_Guardian_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184057,10 +187352,10 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "9983": {
-    "id": "9983",
+  "29983": {
+    "id": "29983",
     "name": "Unused Art",
-    "picture": "Seraph_A",
+    "picture": "Monster_C",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184072,10 +187367,10 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "19983": {
-    "id": "19983",
+  "29982": {
+    "id": "29982",
     "name": "Unused Art",
-    "picture": "Seraph_B",
+    "picture": "Mythic_Avian_C",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184087,40 +187382,10 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "9982": {
-    "id": "9982",
+  "19981": {
+    "id": "19981",
     "name": "Unused Art",
-    "picture": "Spiky_Bug_A",
-    "rarity": "0",
-    "card_type": "2",
-    "type": "0",
-    "sub_type": [],
-    "health": -1,
-    "attack": -1,
-    "cost": -1,
-    "maxLevel": 1,
-    "skill": [],
-    "upgrades": {}
-  },
-  "19982": {
-    "id": "19982",
-    "name": "Unused Art",
-    "picture": "Spiky_Bug_B",
-    "rarity": "0",
-    "card_type": "2",
-    "type": "0",
-    "sub_type": [],
-    "health": -1,
-    "attack": -1,
-    "cost": -1,
-    "maxLevel": 1,
-    "skill": [],
-    "upgrades": {}
-  },
-  "9981": {
-    "id": "9981",
-    "name": "Unused Art",
-    "picture": "Tarian_A",
+    "picture": "Mythic_Dragon_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184135,7 +187400,7 @@ var CARDS = {
   "9980": {
     "id": "9980",
     "name": "Unused Art",
-    "picture": "Tremor_Wurm_A",
+    "picture": "Mythic_Seafolk_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184150,7 +187415,7 @@ var CARDS = {
   "9979": {
     "id": "9979",
     "name": "Unused Art",
-    "picture": "Unused1_A",
+    "picture": "Oda_A",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184162,10 +187427,40 @@ var CARDS = {
     "skill": [],
     "upgrades": {}
   },
-  "9978": {
-    "id": "9978",
+  "19979": {
+    "id": "19979",
     "name": "Unused Art",
-    "picture": "Unused2_A",
+    "picture": "Oda_B",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "29979": {
+    "id": "29979",
+    "name": "Unused Art",
+    "picture": "Oda_C",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19978": {
+    "id": "19978",
+    "name": "Unused Art",
+    "picture": "Promo_Dragon_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184180,7 +187475,22 @@ var CARDS = {
   "9977": {
     "id": "9977",
     "name": "Unused Art",
-    "picture": "Unused3_A",
+    "picture": "Psychic_Mecha_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19977": {
+    "id": "19977",
+    "name": "Unused Art",
+    "picture": "Psychic_Mecha_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184195,7 +187505,22 @@ var CARDS = {
   "9976": {
     "id": "9976",
     "name": "Unused Art",
-    "picture": "Ursurio_A",
+    "picture": "Seraph_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19976": {
+    "id": "19976",
+    "name": "Unused Art",
+    "picture": "Seraph_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184210,7 +187535,22 @@ var CARDS = {
   "9975": {
     "id": "9975",
     "name": "Unused Art",
-    "picture": "Void_Abomination_A",
+    "picture": "Spiky_Bug_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19975": {
+    "id": "19975",
+    "name": "Unused Art",
+    "picture": "Spiky_Bug_B",
     "rarity": "0",
     "card_type": "2",
     "type": "0",
@@ -184225,6 +187565,171 @@ var CARDS = {
   "9974": {
     "id": "9974",
     "name": "Unused Art",
+    "picture": "Tarian_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9973": {
+    "id": "9973",
+    "name": "Unused Art",
+    "picture": "Tree_Harvester_Mecha_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19973": {
+    "id": "19973",
+    "name": "Unused Art",
+    "picture": "Tree_Harvester_Mecha_B",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9972": {
+    "id": "9972",
+    "name": "Unused Art",
+    "picture": "Tremor_Wurm_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9971": {
+    "id": "9971",
+    "name": "Unused Art",
+    "picture": "Unused1_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9970": {
+    "id": "9970",
+    "name": "Unused Art",
+    "picture": "Unused2_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9969": {
+    "id": "9969",
+    "name": "Unused Art",
+    "picture": "Unused3_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9968": {
+    "id": "9968",
+    "name": "Unused Art",
+    "picture": "Ursurio_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9967": {
+    "id": "9967",
+    "name": "Unused Art",
+    "picture": "Void_Abomination_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9966": {
+    "id": "9966",
+    "name": "Unused Art",
+    "picture": "Watchdog_Mecha_A",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "19966": {
+    "id": "19966",
+    "name": "Unused Art",
+    "picture": "Watchdog_Mecha_B",
+    "rarity": "0",
+    "card_type": "2",
+    "type": "0",
+    "sub_type": [],
+    "health": -1,
+    "attack": -1,
+    "cost": -1,
+    "maxLevel": 1,
+    "skill": [],
+    "upgrades": {}
+  },
+  "9965": {
+    "id": "9965",
+    "name": "Unused Art",
     "picture": "Yuriel_A",
     "rarity": "0",
     "card_type": "2",
@@ -184238,4 +187743,4 @@ var CARDS = {
     "upgrades": {}
   },
 };
-var CardsUpdated = 1507724237888.9;
+var CardsUpdated = 1509038320175.47;
