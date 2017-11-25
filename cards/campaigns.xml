@@ -4956,7 +4956,7 @@
     </rewards>
     <find_item id="3059" drop_per_energy=".8" />
   </campaign>
-  <!-- Campaign Event 6 -->
+  <!-- Campaign Event 6 Mecha -->
   <campaign>
     <id>1142</id>
     <name>Mining Resources</name>
@@ -5080,6 +5080,113 @@
       <card level="7" id="503" />
     </rewards>
     <find_item id="3062" drop_per_energy=".2" />
+  </campaign>
+  <!-- Boss Node Fireshard's Giant Mecha -->
+  <campaign>
+    <id>1146</id>
+    <name>Fireshard's Giant</name>
+    <type>2</type>
+    <icon id="gem_Boss_LG" bundle="0" />
+    <campaign_req id="1143" level="1" />
+    <locked_start_time>1509642000</locked_start_time>
+    <!--  Thu, 2 Nov 2017 17:00:00  -->
+    <battleground_id>2024</battleground_id>
+    <location_id>12</location_id>
+    <show_level>1</show_level>
+    <show_ranking>1</show_ranking>
+    <x>423</x>
+    <y>272</y>
+    <combatBG>CombatBGVoid</combatBG>
+    <missions>
+      <mission_id>5742</mission_id>
+      <mission_id>5743</mission_id>
+      <mission_id>5744</mission_id>
+      <mission_id>5745</mission_id>
+    </missions>
+    <rewards>
+      <card level="1" id="511" />
+      <card level="2" id="512" />
+      <card level="3" id="512" />
+      <item level="4" id="3064" />
+      <item level="5" id="3064" />
+      <item level="6" id="3064" />
+      <item level="7" id="3064" />
+    </rewards>
+    <find_item id="3062" drop_per_energy=".4" />
+  </campaign>
+  <!-- Campaign Event 6 Mecha weeks 5-8 -->
+  <campaign>
+    <id>1147</id>
+    <name>In Search of Love</name>
+    <campaign_req id="1144" level="1" />
+    <locked_start_time>1510851600</locked_start_time>
+    <!-- Thu, 16 Nov 2017 17:00:00 -->
+    <battleground_id>2025</battleground_id>
+    <location_id>12</location_id>
+    <x>563</x>
+    <y>301</y>
+    <combatBG>CombatBGVoid</combatBG>
+    <missions>
+      <mission_id>5746</mission_id>
+      <mission_id>5747</mission_id>
+      <mission_id>5748</mission_id>
+      <mission_id>5749</mission_id>
+      <mission_id>5750</mission_id>
+      <mission_id>5751</mission_id>
+      <mission_id>5752</mission_id>
+      <mission_id>5753</mission_id>
+      <mission_id>5754</mission_id>
+      <mission_id>5755</mission_id>
+      <mission_id>5756</mission_id>
+      <mission_id>5757</mission_id>
+      <mission_id>5758</mission_id>
+    </missions>
+    <rewards>
+      <card level="1" id="511" />
+      <card level="2" id="511" />
+      <card level="3" id="511" />
+      <card level="4" id="2114" />
+      <card level="5" id="512" />
+      <card level="6" id="2060" />
+      <item level="7" id="3063" />
+    </rewards>
+    <find_item id="3062" drop_per_energy=".6" />
+  </campaign>
+  <campaign>
+    <id>1148</id>
+    <name>Confronting the Robot Within</name>
+    <campaign_req id="1147" level="1" />
+    <locked_start_time>1512061200</locked_start_time>
+    <!-- Thu, 30 Nov 2017 17:00:00 -->
+    <battleground_id>2026</battleground_id>
+    <location_id>12</location_id>
+    <x>823</x>
+    <y>461</y>
+    <combatBG>CombatBGVoid</combatBG>
+    <missions>
+      <mission_id>5759</mission_id>
+      <mission_id>5760</mission_id>
+      <mission_id>5761</mission_id>
+      <mission_id>5762</mission_id>
+      <mission_id>5763</mission_id>
+      <mission_id>5764</mission_id>
+      <mission_id>5765</mission_id>
+      <mission_id>5766</mission_id>
+      <mission_id>5767</mission_id>
+      <mission_id>5768</mission_id>
+      <mission_id>5769</mission_id>
+      <mission_id>5770</mission_id>
+    </missions>
+    <rewards>
+      <card level="1" id="511" />
+      <card level="2" id="511" />
+      <card level="3" id="511" />
+      <card level="4" id="2115" />
+      <card level="5" id="512" />
+      <card level="6" id="2024" />
+      <item level="7" id="3063" />
+    </rewards>
+    <find_item id="3062" drop_per_energy=".8" />
   </campaign>
   <!-- ============================ -->
   <!-- START Mythic Titan Campaigns -->
@@ -5391,68 +5498,67 @@
       <item level="7" id="2506" number="3" />
     </rewards>
   </campaign>
-  <!-- 
-	<campaign> 
-		<id>3010</id>
-		<name>Test Healmaster</name>
-		<type>2</type>
-		<icon id='white_boss_gem' bundle='15' />
-		<campaign_req id='3009' level='7' />
-		<side_mission>1</side_mission>
-		<battleground_id>2015</battleground_id>
-		<location_id>5</location_id>
-		<show_level>1</show_level>
-		<show_ranking>1</show_ranking>
-		<x>455</x>
-		<y>312</y>
-		<combatBG>CombatBGEvent004</combatBG>
-		<missions>
-			<mission_id>5684</mission_id>
-			<mission_id>5685</mission_id>
-			<mission_id>5686</mission_id>
-			<mission_id>5687</mission_id>
-		</missions>
-		<rewards>
-			<card level='1' id='510' />
-			<card level='2' id='510' />
-			<item level='3' id='2506' number='3' />
-			<card level='4' id='511' />
-			<item level='5' id='2506' number='3' />
-			<card level='6' id='512' />
-			<item level='7' id='2506' number='3' />
-		</rewards>
-	</campaign>
-	  -->
-  <!-- Legend Heroes Unlock 
-
-	<campaign> 
-		<id>3011</id>
-		<name>Tinman's Change of Heart</name>
-		<campaign_req id='1143' level='1' />
-		<locked_start_time>1509123600</locked_start_time>	| Fri, 27 Oct 2017 17:00:00 |
-		<location_id>12</location_id>
-		<x>780</x>
-		<y>580</y>
-		<combatBG>CombatBGVoid</combatBG>
-		<missions>
-			<mission_id>1548</mission_id>
-			<mission_id>1549</mission_id>
-			<mission_id>1550</mission_id>
-			<mission_id>1551</mission_id>
-			<mission_id>1552</mission_id>
-			<mission_id>1553</mission_id>
-		</missions>
-		<rewards>
-			<item level='1' id='1011' />
-			<card level='2' id='510' />
-			<item level='3' id='1011' />
-			<card level='4' id='511' />
-			<item level='5' id='1012' />
-			<card level='6' id='512' />
-			<item level='7' id='2514' />
-		</rewards>
-		<find_item id='3062' drop_per_energy='.2' />
-	</campaign>
-	
-	-->
+  <!-- Mythic Viracocha -->
+  <campaign>
+    <id>3010</id>
+    <name>The Soul Transcends...</name>
+    <type>2</type>
+    <icon id="white_boss_gem" bundle="15" />
+    <campaign_req id="3009" level="7" />
+    <locked_start_time>1511370000</locked_start_time>
+    <!--  Wed, 22 Nov 2017 17:00:00 -->
+    <side_mission>1</side_mission>
+    <battleground_id>2027</battleground_id>
+    <location_id>5</location_id>
+    <show_level>1</show_level>
+    <show_ranking>1</show_ranking>
+    <x>455</x>
+    <y>312</y>
+    <combatBG>CombatBGEvent004</combatBG>
+    <missions>
+      <mission_id>5684</mission_id>
+      <mission_id>5685</mission_id>
+      <mission_id>5686</mission_id>
+      <mission_id>5687</mission_id>
+    </missions>
+    <rewards>
+      <card level="1" id="510" />
+      <card level="2" id="510" />
+      <item level="3" id="2506" number="3" />
+      <card level="4" id="511" />
+      <item level="5" id="2506" number="3" />
+      <card level="6" id="512" />
+      <item level="7" id="2506" number="3" />
+    </rewards>
+  </campaign>
+  <!-- Legend Heroes Unlock -->
+  <campaign>
+    <id>3011</id>
+    <name>Tinman's Change of Heart</name>
+    <campaign_req id="1143" level="1" />
+    <locked_start_time>1509469200</locked_start_time>
+    <!--  Tue, 31 Oct 2017 17:00:00 -->
+    <location_id>12</location_id>
+    <x>780</x>
+    <y>580</y>
+    <combatBG>CombatBGVoid</combatBG>
+    <missions>
+      <mission_id>1548</mission_id>
+      <mission_id>1549</mission_id>
+      <mission_id>1550</mission_id>
+      <mission_id>1551</mission_id>
+      <mission_id>1552</mission_id>
+      <mission_id>1553</mission_id>
+    </missions>
+    <rewards>
+      <item level="1" id="1011" />
+      <card level="2" id="510" />
+      <item level="3" id="1011" />
+      <card level="4" id="511" />
+      <item level="5" id="1012" />
+      <card level="6" id="512" />
+      <item level="7" id="2530" />
+    </rewards>
+    <find_item id="3062" drop_per_energy=".2" />
+  </campaign>
 </root>

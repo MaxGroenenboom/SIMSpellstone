@@ -62,7 +62,7 @@ var BATTLEGROUNDS = {
   "105": {
     "name": "Devouring Hunger",
     "id": "105",
-    "desc": "The Undead are invigorated with an unquenchable hunger, giving them Berserk which increases their base attack by 30% after dealing damage.",
+    "desc": "The Undead are invigorated with an unquenchable hunger, giving them Berserk equal to 30% of their base Attack.",
     "effect": [
       {
         "effect_type": "add_skill",
@@ -857,7 +857,7 @@ var BATTLEGROUNDS = {
   "516": {
     "name": "Cursed Land",
     "id": "516",
-    "desc": "Hex skills are 50% more effective.",
+    "desc": "Hex and Hex All skills are 50% more effective.",
     "effect": [
       {
         "effect_type": "skill",
@@ -929,6 +929,37 @@ var BATTLEGROUNDS = {
         "id": "enhance",
         "mult": 0.5,
         "s": "frost",
+        "all": "1",
+      },
+    ]
+  },
+  "521": {
+    "name": "The Arena",
+    "id": "521",
+    "desc": "In Arena Battles, the player who goes first has two additional Delay added to the first card they play in a battle.",
+    "effect": [
+      {
+        "effect_type": "on_play",
+        "attacker": 1,
+        "first_play": 1,
+        "effect": {
+        	"effect_type": "add_skill",
+        	"id": "slow",
+        	"x": 2,
+        }
+      },
+    ]
+  },
+  "522": {
+    "name": "Empowered Spirits",
+    "id": "522",
+    "desc": "Empower and Empower All skills are 50% more effective.",
+    "effect": [
+      {
+        "effect_type": "skill",
+        "id": "enhance",
+        "mult": 0.5,
+        "s": "rally",
         "all": "1",
       },
     ]
@@ -1327,6 +1358,142 @@ var BATTLEGROUNDS = {
         "effect_type": "scale_attributes",
         "base_mult": .008,
         "mult": .0025,
+      },
+    ]
+  },
+  "2024": {
+    "name": "Gearweight Metal",
+    "id": "2024",
+    "desc": "Fireshard's Giant fights harder with each passing Mastery level, increasing cards' stats!",
+    "enemy_only": true,
+    "scale_with_level": "1",
+    "starting_level": "0",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "scale_attributes",
+        "base_mult": .25,
+        "mult": .03,
+      },
+    ]
+  },
+  "2025": {
+    "name": "Ion-pitched Chiptune",
+    "id": "2025",
+    "desc": "Non-token enemies become stronger with each passing Mastery level.",
+    "enemy_only": true,
+    "scale_with_level": "1",
+    "starting_level": "0",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "scale_attributes",
+        "base_mult": .1,
+        "mult": .01,
+      },
+    ]
+  },
+  "2026": {
+    "name": "Ion-pitched Chiptune",
+    "id": "2026",
+    "desc": "Non-token enemies become stronger with each passing Mastery level.",
+    "enemy_only": true,
+    "scale_with_level": "1",
+    "starting_level": "0",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "scale_attributes",
+        "base_mult": .1,
+        "mult": .03,
+      },
+    ]
+  },
+  "2027": {
+    "name": "Rhythm of the Soul",
+    "id": "2027",
+    "desc": "Viracocha, Titan Aspirer fights harder with each passing Mastery level, increasing cards' stats!",
+    "enemy_only": true,
+    "scale_with_level": "1",
+    "starting_level": "7",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "scale_attributes",
+        "base_mult": .1,
+        "mult": .01,
+      },
+    ]
+  },
+  "5001": {
+    "name": "The Arena",
+    "id": "5001",
+    "desc": "In Arena Battles, the player who goes first has two additional Delay added to the first card they play in a battle.",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "on_play",
+        "attacker": 1,
+        "first_play": 1,
+        "effect": {
+        	"effect_type": "add_skill",
+        	"id": "slow",
+        	"x": 2,
+        }
+      },
+    ]
+  },
+  "5002": {
+    "name": "The Arena",
+    "id": "5002",
+    "desc": "In Arena Battles, the player who goes first has one additional Delay added to the first two cards they play in a battle.",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "on_play",
+        "attacker": 1,
+        "effect": {
+        	"effect_type": "add_skill",
+        	"id": "slow",
+        	"x": 1,
+        }
+      },
+      {
+        "effect_type": "on_play",
+        "attacker": 1,
+        "effect": {
+        	"effect_type": "add_skill",
+        	"id": "slow",
+        	"x": 1,
+        }
+      },
+    ]
+  },
+  "5003": {
+    "name": "The Arena",
+    "id": "5003",
+    "desc": "In Arena Battles, the player who goes first has one Delay added to the first card they play and the player who goes second has one Delay removed from the first card they play.",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "on_play",
+        "attacker": 1,
+        "first_play": 1,
+        "effect": {
+        	"effect_type": "add_skill",
+        	"id": "slow",
+        	"x": 1,
+        }
+      },
+      {
+        "effect_type": "on_play",
+        "defender": 1,
+        "first_play": 1,
+        "effect": {
+        	"effect_type": "add_skill",
+        	"id": "haste",
+        	"x": 1,
+        }
       },
     ]
   },
