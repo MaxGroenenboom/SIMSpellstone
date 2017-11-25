@@ -11,6 +11,7 @@ VALID_HEROES = [
 	'IQTBA', // Decim the Pyrokinetic
 	'QYYBA', // Elyse the Truestriker
 	'YgdBA', // General Ursario
+	'goiBA', // Scyer the Fury Mecha
 ];
 
 SIMULATION_DELAY = 200;
@@ -95,6 +96,7 @@ function startBruteforce(init, step, condition) {
 
 	// Start the recursive bruteforce algorithm.
 	console.log("Initiating bruteforce");
+	battle_history += "\nInititating bruteforce:<br>"
 	startBruteforce();
 	var waitOnce = true;
 	doStep(0);
