@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="styles/spritesheet.css">
     <link rel="stylesheet" type="text/css" href="styles/sass/tutorial.css">
     <link rel="stylesheet" type="text/css" href="styles/loading.css">
-	<link rel="stylesheet" type="text/css" href="styles/bruteforce.css">
     <link rel="icon" type="image/png" href="res/favicon-16x16.png">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js"></script>
     <!--<link rel="stylesheet" href="Content/themes/base/smoothness.css">-->
@@ -30,7 +29,6 @@
     <script src="scripts/data/runes.js"></script>
     <script src="scripts/data/raids.js"></script>
     <script src="scripts/updateCards.js"></script>
-
 
     <!-- This script contains version info that changes each update -->
     <script src="scripts/common.js"></script>
@@ -62,7 +60,10 @@
     <script src="scripts/gui_script.js"></script>
     <script src="scripts/cards_gui.js"></script>
 
+	<!-- These are the custom scripts/styles used by the modified simulator. -->
+	<link rel="stylesheet" type="text/css" href="styles/bruteforce.css">
 	<script src="scripts/bruteforce-controller.js"></script>
+
     <!-- SIMULATOR CODE ENDS HERE -->
     <script src="scripts/tutorial/simulator-tutorial.js"></script>
     <script src="scripts/sim-tutorial.js"></script>
@@ -261,21 +262,21 @@
             <hr />
             <div id="view-container" class="section accordion">
                 <h2>View Decks</h2>
-				<div>
-					<div class="tableRow">
-						<div class="deckView">
-							<h3>Attacker</h3>
-							<div>
-								<div id="attack_deck" class="float-left"></div>
-							</div>
-						</div>
-						<div class="deckView">
-							<h3>Defender</h3>
-							<div>
-								<div id="defend_deck" class="float-left"></div>
-							</div>
-						</div>
-					</div>
+                <div>
+                <div class="tableRow">
+                    <div class="deckView">
+                        <h3>Attacker</h3>
+                        <div>
+                            <div id="attack_deck" class="float-left"></div>
+                        </div>
+                    </div>
+                    <div class="deckView">
+                        <h3>Defender</h3>
+                        <div>
+                            <div id="defend_deck" class="float-left"></div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
             <hr />

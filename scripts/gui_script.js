@@ -660,9 +660,9 @@ function open_deck_builder(name, hash, inventory, deckHashField) {
 	var url = "DeckBuilder.html?" + parameters.join('&');
 
 	var width = Math.min(screen.width);
-    var height = Math.min(screen.height);
-    var left = Number(0);
-    var top = Number(0);
+	var height = Math.min(screen.height);
+	var left = Number(0);
+	var top = Number(0);
 
 	var windowFeatures = 'scrollbars,left=' + left + 'top=' + top + ',width=' + width + ',height=' + height + ',top=' + top + ',left=' + left;
 	var win = window.open(url, '', windowFeatures);
