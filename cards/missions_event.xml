@@ -24264,4 +24264,35 @@
       </line>
     </speech>
   </mission>
+  <mission>
+    <id>5771</id>
+    <name>Celestial Vault Protector</name>
+    <energy>9</energy>
+    <desc>The giant mecha stomps towards you! The smaller Mechas flee, doing their best not to get trampled underfoot. </desc>
+    <commander id="404" />
+    <deck>
+      <card id="8099" name="Prototype Cybot Beta" />
+      <card id="2109" name="Scorchfist Avenger" />
+      <card id="6004" name="Branding Construct" />
+      <card id="6004" name="Branding Construct" />
+      <card id="1632" name="Shadow Rider" />
+      <card id="6036" name="Cursed Ogre" />
+      <card id="2060" name="Patchwork Experiment" />
+      <card id="6029" name="Spinehead Stalker" />
+      <card id="7034" name="Spore Elk" />
+      <card id="5163" mastery_level="2" name="Bark Hound" />
+      <card id="5163" mastery_level="3" name="Bark Hound" />
+      <card id="7163" mastery_level="4" name="Alloy of the Trees" />
+      <card id="2113" mastery_level="5" name="Vali, the Thunderer" />
+      <card id="7036" mastery_level="6" name="Deepwood Corpse" />
+      <card id="7126" mastery_level="7" name="Wyldheart Hunter" />
+    </deck>
+    <speech>
+      <line>
+        <commander>necromancer</commander>
+        <enemy>0</enemy>
+        <text>Look out adventurer, this one looks tough!</text>
+      </line>
+    </speech>
+  </mission>
 </root>

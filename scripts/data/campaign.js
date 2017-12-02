@@ -63,6 +63,10 @@ var LOCATIONS = {
     "id": "12",
     "name": "Fireshard Mine",
   },
+  "13": {
+    "id": "13",
+    "name": "The Celestial Vault",
+  },
   "2": {
     "id": "2",
     "name": "Luminis",
@@ -56898,6 +56902,66 @@ var MISSIONS = {
   "5770": {
     "id": "5770",
     "name": "Fireshard's Protector",
+    "commander": {
+        "id": "404"
+    },
+    "deck": [
+      {
+        "id": "8099"
+      },
+      {
+        "id": "2109"
+      },
+      {
+        "id": "6004"
+      },
+      {
+        "id": "6004"
+      },
+      {
+        "id": "1632"
+      },
+      {
+        "id": "6036"
+      },
+      {
+        "id": "2060"
+      },
+      {
+        "id": "6029"
+      },
+      {
+        "id": "7034"
+      },
+      {
+        "id": "5163",
+        "mastery_level": "2"
+      },
+      {
+        "id": "5163",
+        "mastery_level": "3"
+      },
+      {
+        "id": "7163",
+        "mastery_level": "4"
+      },
+      {
+        "id": "2113",
+        "mastery_level": "5"
+      },
+      {
+        "id": "7036",
+        "mastery_level": "6"
+      },
+      {
+        "id": "7126",
+        "mastery_level": "7"
+      },
+    ]
+  },
+  "5771": {
+    "id": "5771",
+    "name": "Celestial Vault Protector",
     "commander": {
         "id": "404"
     },

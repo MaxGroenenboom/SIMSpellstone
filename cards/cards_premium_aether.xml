@@ -21114,4 +21114,252 @@
       <skill id="weaken" x="3" all="1" />
     </upgrade>
   </unit>
+  <unit>
+    <id>5168</id>
+    <card_type>2</card_type>
+    <name>Lamia's Shield</name>
+    <picture>Zombie_Lamia_Shield_A</picture>
+    <asset_bundle>112</asset_bundle>
+    <hidden_until_time>1512061200</hidden_until_time>
+    <attack>4</attack>
+    <health>16</health>
+    <cost>2</cost>
+    <rarity>3</rarity>
+    <skill id="armored" x="2" />
+    <skill id="rally" x="3" y="7" />
+    <skill id="heal" x="3" y="7" />
+    <type>1</type>
+    <sub_type>7</sub_type>
+    <set>3000</set>
+    <upgrade>
+      <level>2</level>
+      <health>17</health>
+    </upgrade>
+    <upgrade>
+      <level>3</level>
+      <skill id="armored" x="2" />
+      <skill id="rally" x="4" y="7" />
+      <skill id="heal" x="4" y="7" />
+    </upgrade>
+    <upgrade>
+      <level>4</level>
+      <health>18</health>
+    </upgrade>
+    <upgrade>
+      <level>5</level>
+      <health>19</health>
+      <skill id="armored" x="2" />
+      <skill id="rally" x="4" y="7" />
+      <skill id="heal" x="5" y="7" />
+    </upgrade>
+  </unit>
+  <unit>
+    <id>15168</id>
+    <card_type>2</card_type>
+    <fusion_level>1</fusion_level>
+    <name>Lamia's Legionnaire</name>
+    <picture>Zombie_Lamia_Shield_A</picture>
+    <asset_bundle>112</asset_bundle>
+    <hidden_until_time>1512061200</hidden_until_time>
+    <attack>4</attack>
+    <health>19</health>
+    <cost>2</cost>
+    <rarity>3</rarity>
+    <skill id="armored" x="2" />
+    <skill id="rally" x="5" y="7" />
+    <skill id="heal" x="5" y="7" />
+    <type>1</type>
+    <sub_type>7</sub_type>
+    <set>3000</set>
+    <upgrade>
+      <level>2</level>
+      <attack>5</attack>
+      <health>20</health>
+    </upgrade>
+    <upgrade>
+      <level>3</level>
+      <skill id="armored" x="3" />
+      <skill id="rally" x="5" y="7" />
+      <skill id="heal" x="5" y="7" />
+    </upgrade>
+    <upgrade>
+      <level>4</level>
+      <health>21</health>
+      <skill id="armored" x="3" />
+      <skill id="rally" x="5" y="7" />
+      <skill id="heal" x="6" y="7" />
+    </upgrade>
+    <upgrade>
+      <level>5</level>
+      <health>22</health>
+      <skill id="armored" x="3" />
+      <skill id="rally" x="6" y="7" />
+      <skill id="heal" x="6" y="7" />
+    </upgrade>
+  </unit>
+  <unit>
+    <id>25168</id>
+    <card_type>2</card_type>
+    <fusion_level>2</fusion_level>
+    <name>Lamia's Honor Guard</name>
+    <picture>Zombie_Lamia_Shield_B</picture>
+    <asset_bundle>112</asset_bundle>
+    <hidden_until_time>1512061200</hidden_until_time>
+    <attack>5</attack>
+    <health>22</health>
+    <cost>2</cost>
+    <rarity>3</rarity>
+    <skill id="armored" x="3" />
+    <skill id="rally" x="6" y="7" />
+    <skill id="heal" x="7" y="7" />
+    <type>1</type>
+    <sub_type>7</sub_type>
+    <set>3000</set>
+    <upgrade>
+      <level>2</level>
+      <health>23</health>
+      <skill id="armored" x="3" />
+      <skill id="rally" x="7" y="7" />
+      <skill id="heal" x="7" y="7" />
+    </upgrade>
+    <upgrade>
+      <level>3</level>
+      <attack>6</attack>
+    </upgrade>
+    <upgrade>
+      <level>4</level>
+      <health>24</health>
+      <skill id="armored" x="4" />
+      <skill id="rally" x="7" y="7" />
+      <skill id="heal" x="7" y="7" />
+    </upgrade>
+    <upgrade>
+      <level>5</level>
+      <skill id="armored" x="4" />
+      <skill id="rally" x="8" y="7" />
+      <skill id="heal" x="8" y="7" />
+    </upgrade>
+  </unit>
+  <unit>
+    <id>5170</id>
+    <card_type>2</card_type>
+    <name>Dullahan Destrier</name>
+    <picture>Headless_Horseman_A</picture>
+    <asset_bundle>112</asset_bundle>
+    <hidden_until_time>1511802000</hidden_until_time>
+    <attack>4</attack>
+    <health>15</health>
+    <cost>2</cost>
+    <rarity>4</rarity>
+    <skill id="strike" x="1" all="1" />
+    <skill id="burn" x="1" />
+    <skill id="flurry" c="6" />
+    <type>1</type>
+    <sub_type>7</sub_type>
+    <set>4000</set>
+    <upgrade>
+      <level>2</level>
+      <skill id="strike" x="1" all="1" />
+      <skill id="burn" x="1" />
+      <skill id="flurry" c="5" />
+    </upgrade>
+    <upgrade>
+      <level>3</level>
+      <health>16</health>
+    </upgrade>
+    <upgrade>
+      <level>4</level>
+      <health>17</health>
+    </upgrade>
+    <upgrade>
+      <level>5</level>
+      <attack>5</attack>
+    </upgrade>
+    <upgrade>
+      <level>6</level>
+      <health>18</health>
+    </upgrade>
+  </unit>
+  <unit>
+    <id>15170</id>
+    <card_type>2</card_type>
+    <fusion_level>1</fusion_level>
+    <name>Dullahan Desecrator</name>
+    <picture>Headless_Horseman_A</picture>
+    <asset_bundle>112</asset_bundle>
+    <hidden_until_time>1511802000</hidden_until_time>
+    <attack>5</attack>
+    <health>18</health>
+    <cost>2</cost>
+    <rarity>4</rarity>
+    <skill id="strike" x="1" all="1" />
+    <skill id="burn" x="1" />
+    <skill id="flurry" c="4" />
+    <type>1</type>
+    <sub_type>7</sub_type>
+    <set>4000</set>
+    <upgrade>
+      <level>2</level>
+      <health>19</health>
+    </upgrade>
+    <upgrade>
+      <level>3</level>
+      <skill id="strike" x="1" all="1" />
+      <skill id="burn" x="2" />
+      <skill id="flurry" c="4" />
+    </upgrade>
+    <upgrade>
+      <level>4</level>
+      <health>20</health>
+    </upgrade>
+    <upgrade>
+      <level>5</level>
+      <attack>6</attack>
+    </upgrade>
+    <upgrade>
+      <level>6</level>
+      <health>21</health>
+    </upgrade>
+  </unit>
+  <unit>
+    <id>25170</id>
+    <card_type>2</card_type>
+    <fusion_level>2</fusion_level>
+    <name>Dullahan Deathsearer</name>
+    <picture>Headless_Horseman_B</picture>
+    <asset_bundle>112</asset_bundle>
+    <hidden_until_time>1511802000</hidden_until_time>
+    <attack>6</attack>
+    <health>21</health>
+    <cost>2</cost>
+    <rarity>4</rarity>
+    <skill id="strike" x="1" all="1" />
+    <skill id="burn" x="2" />
+    <skill id="flurry" c="3" />
+    <type>1</type>
+    <sub_type>7</sub_type>
+    <set>4000</set>
+    <upgrade>
+      <level>2</level>
+      <health>22</health>
+    </upgrade>
+    <upgrade>
+      <level>3</level>
+      <health>23</health>
+    </upgrade>
+    <upgrade>
+      <level>4</level>
+      <attack>7</attack>
+    </upgrade>
+    <upgrade>
+      <level>5</level>
+      <health>24</health>
+    </upgrade>
+    <upgrade>
+      <level>6</level>
+      <skill id="strike" x="2" all="1" />
+      <skill id="burn" x="3" />
+      <skill id="flurry" c="3" />
+    </upgrade>
+  </unit>
 </root>
