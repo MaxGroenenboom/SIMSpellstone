@@ -26,6 +26,7 @@ void Main()
 		.Union(LoadUnits("cards_premium_chaos.xml"))
 		.Union(LoadUnits("cards_premium_wyld.xml"))
 		.Union(LoadUnits("cards_reward.xml"))
+		.Union(LoadUnits("cards_shard_cards.xml"))
 		.Union(LoadUnits("cards_special.xml"))
 		.Union(LoadUnits("cards_standard.xml"))
 		.Union(LoadUnits("cards_story.xml")));
@@ -44,6 +45,7 @@ void Main()
 	Normalize("cards_premium_chaos.xml", downloadFiles);
 	Normalize("cards_premium_wyld.xml", downloadFiles);
 	Normalize("cards_reward.xml", downloadFiles);
+	Normalize("cards_shard_cards.xml", downloadFiles);
 	Normalize("cards_special.xml", downloadFiles);
 	Normalize("cards_standard.xml", downloadFiles);
 	Normalize("cards_story.xml", downloadFiles);
@@ -100,6 +102,7 @@ void Main()
 		{"flurry", "flurry"},
 		// On Death
 		{"unearth", "onDeath"},
+		{"reanimate", "onDeath"},
 		// Early Activation
 		{"barrage", "earlyActivation"},
 		{"enhance", "earlyActivation"},
@@ -215,6 +218,7 @@ void Main()
 		"cards_premium_chaos.xml",
 		"cards_premium_wyld.xml",
 		"cards_reward.xml",
+		"cards_shard_cards.xml",
 		"cards_special.xml",
 		"cards_standard.xml",
 		"cards_story.xml"
@@ -518,14 +522,18 @@ void Main()
 
 private HashSet<string> LoadUnits(string file)
 {
-	var doc = XDocument.Load(Path.Combine(path, file));
+	var filePath = Path.Combine(path, file);
 	var existingUnits = new HashSet<string>();
-	var unitNodes = doc.Descendants("unit");
-	foreach (var unitXML in unitNodes)
+	if (File.Exists(filePath))
 	{
-		var stringReader = new StringReader(unitXML.ToString());
-		var unit = (unit)unitDeserializer.Deserialize(stringReader);
-		existingUnits.Add(unit.id);
+		var doc = XDocument.Load(filePath);
+		var unitNodes = doc.Descendants("unit");
+		foreach (var unitXML in unitNodes)
+		{
+			var stringReader = new StringReader(unitXML.ToString());
+			var unit = (unit)unitDeserializer.Deserialize(stringReader);
+			existingUnits.Add(unit.id);
+		}
 	}
 	return existingUnits;
 }
@@ -716,6 +724,7 @@ public partial class unit
 		AppendEntryString(sb, "rarity", rarity, unitTabs);
 		AppendEntryString(sb, "set", set, unitTabs);
 		AppendEntryString(sb, "card_type", card_type, unitTabs);
+		AppendEntry(sb, "shard_card", shard_card, unitTabs);
 		AppendEntryString(sb, "type", type, unitTabs);
 		AppendEntryArray(sb, "sub_type", sub_type, unitTabs);
 		AppendEntry(sb, "health", health, unitTabs);
@@ -769,6 +778,7 @@ public partial class unit
 
 	private string idField;
 	private string card_typeField;
+	private string shard_cardField;
 	private string nameField;
 	private string descField;
 	private string pictureField;
@@ -796,8 +806,15 @@ public partial class unit
 	/// <remarks/>
 	public string card_type
 	{
-		get { return this.card_typeField; }
+		get { return this.card_typeField ?? "2"; }
 		set { this.card_typeField = value; }
+	}
+
+	/// <remarks/>
+	public string shard_card
+	{
+		get { return this.shard_cardField; }
+		set { this.shard_cardField = value; }
 	}
 
 	/// <remarks/>
