@@ -17,13 +17,14 @@ VALID_HEROES = [
 SIMULATION_DELAY = 200;
 
 $(() => {
-	elem = {
-		deckInput: $('#deck1'),
-		ui: $('#ui'),
-		simulateBtn: $('#btn_simulate'),
-		header: $('header'),
-		additions: $('#field_possible_additions'),
-	};
+	if (!window.elem) {
+		elem = {};
+	}
+	elem.deckInput = $('#deck1');
+	elem.ui = $('#ui');
+	elem.simulateBtn = $('#btn_simulate');
+	elem.header = $('header');
+	elem.additions = $('#field_possible_additions');
 
 	$("#btn_bf_remove").click(bruteforceRemove);
 	$("#btn_bf_heroes").click(bruteforceHeroes);
