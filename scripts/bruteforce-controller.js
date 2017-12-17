@@ -68,13 +68,13 @@ function startBruteforce(init, step, condition) {
 		elem.header.removeClass("bruteforcing");
 	}
 	function doStep(index) { // Recursive step function of the algorithm.
+		if (elem.ui.is(":not(:visible)")) { // Wait when simulation is still running.
+			setTimeout(() => doStep(index), 100);
+			return;
+		}
 		if (condition(index)) { // Stops recursion when stop condition is reached.
 			elem.deckInput.val(realDeck);
 			endBruteforce();
-			return;
-		}
-		if (elem.ui.is(":not(:visible)")) { // Wait when simulation is still running.
-			setTimeout(() => doStep(index), 100);
 			return;
 		}
 		if (waitOnce) { // Ensure delay between simulations.
