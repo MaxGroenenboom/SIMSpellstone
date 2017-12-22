@@ -1,0 +1,28 @@
+.decks-item {
+	float: left;
+	cursor: pointer;
+	margin: 7px;
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
+	padding: 2px;
+	background: #e6e6e6 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAYAAABvWArbAAAANUlEQ…t5wFXaWAiCtUiaYZvF9hBACOFbuntVVe11B0CSjjeE8BwThQIJ8dhEl0YAAAAASUVORK5CYII=) /*../Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png*/ 50% 50% repeat-x;
+}
+
+.decks-item .deck-name {
+	float: left;
+	margin: auto;
+	margin-right: 5px;
+}
+
+.decks-item .button {
+	float: left;
+	margin-top: 2px;
+}
+
+.decks-item .save-button {
+	background-image: url("../Content/themes/base/images/ui-icons_2e83ff_256x240.png");
+}
+
+.decks-item .delete-button {
+	background-image: url("../Content/themes/base/images/ui-icons_cd0a0a_256x240.png");
+}

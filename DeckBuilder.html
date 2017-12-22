@@ -53,6 +53,10 @@
     <script src="scripts/ng-card-details-controller.js"></script>
     <script type="text/javascript" src="scripts/data/spoilers.js"></script>
 
+	<!-- These are the custom scripts/styles used by the modified simulator. -->
+	<script src="scripts/deck-overview.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/deck-overview.css">
+
     <script src="scripts/tutorial/deckbuilder-tutorial.js"></script>
     <script src="scripts/sim-tutorial.js"></script>
 </head>
@@ -60,7 +64,13 @@
     <header style="display:none" id="header"></header>
     <div style="margin:auto">
         <div id="deckBuilderContainer">
-            <div id="deck-container" class="accordion">
+            <div id="decks-container" class="accordion start-open">
+				<h3>Decks:</h3>
+				<div id="decksContainer" class="collapsible">
+					
+				</div>
+			</div>
+			<div id="deck-container" class="accordion">
                 <h3 id="version_label">Deck:</h3>
                 <div id="deckContainer" class="collapsible">
                     <br />
