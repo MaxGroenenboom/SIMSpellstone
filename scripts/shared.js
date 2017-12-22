@@ -1510,15 +1510,14 @@ var multiplierChars = "_*.'";
 var runeDelimiter = "/";
 var indexDelimiter = '-';
 var priorityDelimiter = '|';
-var noFusions = {};
+
+var noFusionInHash = {};
 for (var id in CARDS) {
-    if (id < 10000) {
-        var card = CARDS[id];
-        if (card.sub_type.indexOf("999") >= 0) {
-        	noFusions[id] = true;
-        } else if (card.shard_card) {
-        	noFusions[id] = true;
-        }
+	if (id < 10000) {
+		var fusion = FUSIONS[id];
+		if (!fusion || Number(fusion) < 10000) {
+			noFusionInHash[id] = true;
+		}
     }
 }
 
@@ -1529,9 +1528,9 @@ function unitInfo_to_base64(unit_info) {
     var baseID = parseInt(unit_info.id);
     var level = (parseInt(unit_info.level) - 1);
 
-    if (noFusions[baseID]) {
-        var fusion = level % 3;
-        var level = Math.floor(level / 3);
+    if (noFusionInHash[baseID]) {
+    	var fusion = Math.floor(level / 7);
+    	var level = level % 7;
     } else {
         var fusion = Math.floor(baseID / 10000);
         baseID %= 10000;
@@ -1566,8 +1565,8 @@ function base64_to_unitInfo(base64) {
     dec = (dec - fusion) / 3;
     var unitID = dec;
 
-    if (noFusions[unitID]) {
-        level = level * 3 + fusion;
+    if (noFusionInHash[unitID]) {
+    	level += fusion * 7;
     } else if (fusion > 0) {
         unitID = Number(fusion + '' + unitID);
     }

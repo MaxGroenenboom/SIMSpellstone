@@ -3,7 +3,7 @@
   <Namespace>System.Xml.Serialization</Namespace>
 </Query>
 
-static bool downloadFiles = true;
+static bool downloadFiles = false;
 
 static string path = Path.GetDirectoryName(Util.CurrentQueryPath);
 static string baseUrl = @"https://spellstone.synapse-games.com/assets";
@@ -134,6 +134,11 @@ void Main()
 		{"counterburn", "Counterburn"}
 	};
 
+	var skillIconChanges = new Dictionary<string, string>()
+	{
+		{"reinforce", "reinforce"}
+	};
+
 	var iconRemappings = new Dictionary<string, string>()
 	{
 		{"mark", "eagle_eye"},
@@ -155,9 +160,12 @@ void Main()
 	{
 		var id = node.Element("id").Value;
 		string icon;
-		if (!iconRemappings.TryGetValue(id, out icon))
+		if (!skillIconChanges.TryGetValue(id, out icon))
 		{
-			icon = node.Element("icon").Value;
+			if (!iconRemappings.TryGetValue(id, out icon))
+			{
+				icon = node.Element("icon").Value;
+			}
 		}
 		string name;
 		if (!skillRenames.TryGetValue(id, out name))
@@ -1451,11 +1459,15 @@ private static void AppendEntry(StringBuilder sb, string name, string value, str
 	}
 }
 
-private static void AppendEntryString(StringBuilder sb, string name, string value, string tabs)
+private static void AppendEntryString(StringBuilder sb, string name, string value, string tabs, string defaultValue = null)
 {
 	if (!String.IsNullOrEmpty(value))
 	{
 		sb.Append(tabs).Append("\"").Append(name).Append("\": \"").Append(value).Append("\",\r\n");
+	}
+	else if (!String.IsNullOrEmpty(defaultValue))
+	{
+		sb.Append(tabs).Append("\"").Append(name).Append("\": \"").Append(defaultValue).Append("\",\r\n");
 	}
 }
 

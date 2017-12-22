@@ -4,6 +4,7 @@
   <!-- Fragment items will be auto generated with the same id as the card -->
   <unit>
     <id>4000</id>
+    <card_type>2</card_type>
     <name>Noctrus Flintclaw</name>
     <set>5000</set>
     <shard_card>1</shard_card>
