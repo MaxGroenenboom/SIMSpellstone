@@ -8,12 +8,13 @@
     <name>Noctrus Flintclaw</name>
     <set>5000</set>
     <shard_card>1</shard_card>
+    <cannot_salvage>1</cannot_salvage>
     <picture>Avian_Stag_B</picture>
     <asset_bundle>114</asset_bundle>
-    <item_name>Noctrus Flintclaw Fragment</item_name>
-    <item_desc>Collect Noctrus Flintclaw Fragments to craft and upgrade the Legendary Noctrus Flintclaw card!</item_desc>
-    <item_icon>Shardbot_Bronze</item_icon>
-    <item_bundle_id>17</item_bundle_id>
+    <item_name>Noctrus Flintclaw Stone</item_name>
+    <item_desc>Collect Noctrus Flintclaw Stones to craft and upgrade the Legendary Noctrus Flintclaw card!</item_desc>
+    <item_icon>championStone_epic</item_icon>
+    <item_bundle_id>58</item_bundle_id>
     <type>3</type>
     <sub_type>10</sub_type>
     <attack>9</attack>
@@ -91,76 +92,82 @@
   </unit>
   <unit>
     <id>4001</id>
-    <name>Orbo, the Cuddler</name>
-    <set>5100</set>
+    <card_type>2</card_type>
+    <name>Foxfire</name>
+    <set>5000</set>
     <shard_card>1</shard_card>
-    <asset_prefab>mythicUndead_A</asset_prefab>
-    <asset_prefab_alt>mythicUndead_B</asset_prefab_alt>
-    <picture>Mythic_Undead_A</picture>
-    <picture>Mythic_Undead_A</picture>
-    <asset_bundle>57</asset_bundle>
-    <item_name>Orbo Fragment</item_name>
-    <item_desc>Collect Orbo Fragments to craft and upgrade the Mythic Orbo card!</item_desc>
-    <item_icon>Shardbot_Bronze</item_icon>
-    <item_bundle_id>17</item_bundle_id>
-    <type>1</type>
-    <sub_type>16</sub_type>
-    <attack>9</attack>
-    <health>20</health>
-    <cost>3</cost>
-    <rarity>5</rarity>
-    <skill id="leech" x="8" />
-    <skill id="berserk" x="4" />
-    <skill id="reanimate" x="5" />
+    <cannot_salvage>1</cannot_salvage>
+    <picture>Fire_Fox_Ghost_B</picture>
+    <asset_bundle>118</asset_bundle>
+    <item_name>Foxfire Stone</item_name>
+    <item_desc>Collect Foxfire Stones to craft and upgrade the Legendary Foxfire card!</item_desc>
+    <item_icon>championStone_epic</item_icon>
+    <item_bundle_id>58</item_bundle_id>
+    <type>2</type>
+    <sub_type>5</sub_type>
+    <sub_type>7</sub_type>
+    <attack>7</attack>
+    <health>22</health>
+    <cost>2</cost>
+    <rarity>4</rarity>
+    <skill id="evade" x="2" />
+    <skill id="frost" x="2" />
+    <skill id="burn" x="3" />
     <upgrade>
       <level>2</level>
-      <skill id="leech" x="8" />
-      <skill id="berserk" x="4" />
-      <skill id="reanimate" x="6" />
+      <health>24</health>
     </upgrade>
     <upgrade>
       <level>3</level>
-      <skill id="leech" x="9" />
-      <skill id="berserk" x="4" />
-      <skill id="reanimate" x="6" />
+      <skill id="evade" x="2" />
+      <skill id="frost" x="2" />
+      <skill id="burn" x="4" />
     </upgrade>
     <upgrade>
       <level>4</level>
-      <skill id="leech" x="9" />
-      <skill id="berserk" x="5" />
-      <skill id="reanimate" x="6" />
+      <skill id="evade" x="2" />
+      <skill id="frost" x="3" />
+      <skill id="burn" x="4" />
     </upgrade>
     <upgrade>
       <level>5</level>
-      <attack>11</attack>
+      <attack>8</attack>
+      <skill id="evade" x="2" />
+      <skill id="frost" x="3" />
+      <skill id="burn" x="4" />
     </upgrade>
     <upgrade>
       <level>6</level>
-      <skill id="leech" x="9" />
-      <skill id="berserk" x="6" />
-      <skill id="reanimate" x="6" />
+      <health>25</health>
+      <skill id="evade" x="3" />
+      <skill id="frost" x="3" />
+      <skill id="burn" x="5" />
     </upgrade>
     <upgrade>
       <level>7</level>
-      <skill id="leech" x="9" />
-      <skill id="berserk" x="7" />
-      <skill id="reanimate" x="6" />
+      <attack>9</attack>
+      <health>26</health>
     </upgrade>
     <upgrade>
       <level>8</level>
-      <skill id="leech" x="9" />
-      <skill id="berserk" x="7" />
-      <skill id="reanimate" x="7" />
+      <health>27</health>
+      <skill id="evade" x="3" />
+      <skill id="frost" x="3" />
+      <skill id="burn" x="6" />
     </upgrade>
     <upgrade>
       <level>9</level>
-      <health>57</health>
+      <attack>10</attack>
+      <skill id="evade" x="3" />
+      <skill id="frost" x="4" />
+      <skill id="burn" x="6" />
     </upgrade>
     <upgrade>
       <level>10</level>
-      <skill id="leech" x="10" />
-      <skill id="berserk" x="8" />
-      <skill id="reanimate" x="7" />
+      <health>28</health>
+      <skill id="evade" x="4" />
+      <skill id="frost" x="4" />
+      <skill id="burn" x="7" />
     </upgrade>
   </unit>
 </root>

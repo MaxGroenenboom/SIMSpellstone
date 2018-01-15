@@ -60,7 +60,7 @@ var BATTLEGROUNDS = {
     ]
   },
   "105": {
-    "name": "Devouring Hunger",
+    "name": "Relentless Hunger",
     "id": "105",
     "desc": "The Undead are invigorated with an unquenchable hunger, giving them Berserk equal to 30% of their base Attack.",
     "effect": [
@@ -291,6 +291,48 @@ var BATTLEGROUNDS = {
         "base": "attack",
         "y": "16",
         "all": "1",
+      },
+    ]
+  },
+  "119": {
+    "name": "Elemental Conflux",
+    "id": "119",
+    "desc": "Elementals gain abilities based on faction! Aether have their Attack increased by 50% of the base, Chaos gain Vengeance equal to 50% of base Attack, and Wyld gain an additional 25% base Health.",
+    "effect": [
+      {
+        "effect_type": "skill",
+        "id": "enlarge",
+        "mult": .5,
+        "y": "1,5",
+        "all": "1",
+      },
+      {
+        "effect_type": "add_skill",
+        "id": "counter",
+        "mult": .5,
+        "base": "attack",
+        "y": "2,5",
+        "all": "1",
+      },
+      {
+        "effect_type": "scale_health",
+        "base": "health",
+        "mult": 0.25,
+        "y": "3,5",
+      },
+    ]
+  },
+  "120": {
+    "name": "Dragonfire",
+    "id": "120",
+    "desc": "Dragons gain Scorch equal to 15% of their base Health.",
+    "effect": [
+      {
+        "effect_type": "add_skill",
+        "id": "burn",
+        "mult": 0.15,
+        "base": "health",
+        "y": "9",
       },
     ]
   },
@@ -978,6 +1020,32 @@ var BATTLEGROUNDS = {
       },
     ]
   },
+  "524": {
+    "name": "Berserker Rage",
+    "id": "524",
+    "desc": "Berserk skills are 50% more effective.",
+    "effect": [
+      {
+        "effect_type": "skill",
+        "id": "enhance",
+        "mult": 0.5,
+        "s": "berserk",
+        "all": "1",
+      },
+    ]
+  },
+  "525": {
+    "name": "Vanishing Enchantment",
+    "id": "525",
+    "desc": "All cards gain Invisibility 99.",
+    "effect": [
+      {
+        "effect_type": "add_skill",
+        "id": "evade",
+        "x": 99,
+      },
+    ]
+  },
   "1001": {
     "name": "Primal Mending",
     "id": "1001",
@@ -1455,6 +1523,54 @@ var BATTLEGROUNDS = {
       },
     ]
   },
+  "2029": {
+    "name": "Crimsondrip Lullaby",
+    "id": "2029",
+    "desc": "Hero's Blessed, Yakov fights harder with each passing Mastery level, increasing cards' stats!",
+    "enemy_only": true,
+    "scale_with_level": "1",
+    "starting_level": "0",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "scale_attributes",
+        "base_mult": .2,
+        "mult": .03,
+      },
+    ]
+  },
+  "2030": {
+    "name": "Crimsonwing Anthem",
+    "id": "2030",
+    "desc": "Non-token enemies become stronger with each passing Mastery level.",
+    "enemy_only": true,
+    "scale_with_level": "1",
+    "starting_level": "0",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "scale_attributes",
+        "base_mult": .1,
+        "mult": .01,
+      },
+    ]
+  },
+  "2031": {
+    "name": "Crimsonwing Anthem",
+    "id": "2031",
+    "desc": "Non-token enemies become stronger with each passing Mastery level.",
+    "enemy_only": true,
+    "scale_with_level": "1",
+    "starting_level": "0",
+    "hidden": true,
+    "effect": [
+      {
+        "effect_type": "scale_attributes",
+        "base_mult": .1,
+        "mult": .03,
+      },
+    ]
+  },
   "5001": {
     "name": "The Arena",
     "id": "5001",
@@ -1526,5 +1642,11 @@ var BATTLEGROUNDS = {
         }
       },
     ]
+  },
+  "6001": {
+    "name": "Global VFX",
+    "id": "6001",
+    "desc": "",
+    "hidden": true,
   },
 };
