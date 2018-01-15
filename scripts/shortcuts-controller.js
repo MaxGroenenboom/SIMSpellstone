@@ -10,6 +10,7 @@ SHORTCUTS = [
 	[10, 1133, 5653, 7],
 	[11, 1139, 5683, 7],
 	[12, 1146, 5745, 7],
+	[13, 1153, 5805, 7],
 ]
 
 function get() {
@@ -17,13 +18,15 @@ function get() {
 }
 
 function setMission(mission) {
-	elem.map.val(SHORTCUTS[mission][0]);
+	console.log("setshortcut: " + mission);
+	var mission = SHORTCUTS[mission];
+	elem.map.val(mission[0]);
 	elem.map.change();
-	elem.campaign.val(SHORTCUTS[mission][1]);
+	elem.campaign.val(mission[1]);
 	elem.campaign.change();
-	elem.mission.val(SHORTCUTS[mission][2]);
+	elem.mission.val(mission[2]);
 	elem.mission.change();
-	elem.stage.val(SHORTCUTS[mission][3]);
+	elem.stage.val(mission[3]);
 	elem.stage.change();
 }
 
@@ -47,4 +50,5 @@ $(() => {
 	$("#btn_shortcuts_hopper").click(() => setMission(8));
 	$("#btn_shortcuts_pharite").click(() => setMission(9));
 	$("#btn_shortcuts_vali").click(() => setMission(10));
+	$("#btn_shortcuts_eos").click(() => setMission(11));
 });
