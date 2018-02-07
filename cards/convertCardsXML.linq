@@ -86,17 +86,20 @@ void Main()
 		{"silence", "toggle"},
 		{"taunt", "toggle"},
 		// Passives
+		{"absorb", "passive"},
 		{"armored", "passive"},
 		{"berserk", "passive"},
 		{"corrosive", "passive"},
 		{"counter", "passive"},
 		{"counterburn", "passive"},
+		{"daze", "passive"},
 		{"evade", "passive"},
 		{"fury", "passive"},
 		{"leech", "passive"},
 		{"nullify", "passive"},
 		{"pierce", "passive"},
 		{"poison", "passive"},
+		{"regenerate", "passive"},
 		{"reinforce", "passive"},
 		{"valor", "passive"},
 		{"venom", "passive"},
@@ -155,7 +158,7 @@ void Main()
 	var mapped = new Dictionary<string, string>();
 
 	var skillIconNames = new List<string>();
-	var skillFiles = @"C:\Users\JSEN\Documents\Visual Studio 2013\Projects\SIMSpellstone\res\skills";
+	var skillFiles = Path.Combine(path, "../res/skills");
 	var skills = XDocument.Load(Path.Combine(path, "cards_config.xml")).Descendants("skillType")
 	.Where(node => node.Element("icon") != null)
 	.Select(node =>
