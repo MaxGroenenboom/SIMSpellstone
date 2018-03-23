@@ -26966,4 +26966,1712 @@
       </line>
     </speech>
   </mission>
+  <mission>
+    <id>5857</id>
+    <name>By a Higher Power</name>
+    <energy>9</energy>
+    <desc>Razi lifts her hands, her gaze dark and yet seeming to stare into nothing. The ground rumbles. A great crack tears across the mural, scrawling across the ceiling.</desc>
+    <commander id="408" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="8105" name="Divine Statue" />
+      <card id="7069" name="Stoneblade Seraphim" />
+      <card id="7182" name="Axion, the Valiant" />
+      <card id="2083" name="Habrok, the Lance" />
+      <card id="6100" name="Tiamat" />
+      <card id="6040" name="Scorching Cutlass" />
+      <card id="5174" name="Cloudbreak Elites" />
+      <card id="2028" name="Infinity" />
+      <card id="2028" mastery_level="2" name="Infinity" />
+      <card id="5088" mastery_level="3" name="Betrayal" />
+      <card id="5031" mastery_level="4" name="Frostlance Valkyrie" />
+      <card id="5031" mastery_level="5" name="Frostlance Valkyrie" />
+      <card id="2083" mastery_level="6" name="Habrok, the Lance" />
+      <card id="7182" mastery_level="7" name="Axion, the Valiant" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5858</id>
+    <name>Daring Escape</name>
+    <energy>9</energy>
+    <desc>Malchior grabs your arm and pulls on Yuriel's wing. You stumble at first but eventually catch your stride, the three of you racing towards the exit. Whispers of unintellible words echo quietly, while the earth splits and cracks and roars.</desc>
+    <commander id="408" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="8105" name="Divine Statue" />
+      <card id="7069" name="Stoneblade Seraphim" />
+      <card id="7182" name="Axion, the Valiant" />
+      <card id="2083" name="Habrok, the Lance" />
+      <card id="6100" name="Tiamat" />
+      <card id="6040" name="Scorching Cutlass" />
+      <card id="5174" name="Cloudbreak Elites" />
+      <card id="2028" name="Infinity" />
+      <card id="2028" mastery_level="2" name="Infinity" />
+      <card id="5088" mastery_level="3" name="Betrayal" />
+      <card id="5031" mastery_level="4" name="Frostlance Valkyrie" />
+      <card id="5031" mastery_level="5" name="Frostlance Valkyrie" />
+      <card id="2083" mastery_level="6" name="Habrok, the Lance" />
+      <card id="7182" mastery_level="7" name="Axion, the Valiant" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5859</id>
+    <name>Retracing Steps</name>
+    <energy>9</energy>
+    <desc>Yuriel shouts to follow the glyphs, warning of untriggered traps. You weave through the invisible maze, desperately trying to find your way back through his markings. You finally make it through, only to be greeted by more guardians, rising from fallen books.</desc>
+    <commander id="408" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="8105" name="Divine Statue" />
+      <card id="7069" name="Stoneblade Seraphim" />
+      <card id="7182" name="Axion, the Valiant" />
+      <card id="2083" name="Habrok, the Lance" />
+      <card id="6100" name="Tiamat" />
+      <card id="6040" name="Scorching Cutlass" />
+      <card id="5174" name="Cloudbreak Elites" />
+      <card id="2028" name="Infinity" />
+      <card id="2028" mastery_level="2" name="Infinity" />
+      <card id="5088" mastery_level="3" name="Betrayal" />
+      <card id="5031" mastery_level="4" name="Frostlance Valkyrie" />
+      <card id="5031" mastery_level="5" name="Frostlance Valkyrie" />
+      <card id="2083" mastery_level="6" name="Habrok, the Lance" />
+      <card id="7182" mastery_level="7" name="Axion, the Valiant" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5860</id>
+    <name>Crimsonwing Secrets</name>
+    <energy>9</energy>
+    <desc>Finally you clear the last of the guardians, the exit to Skyhaven looming before you. Light flashes, Razi appearing in its brilliance, blocking your path. Arms still outspread, her pupils are consumed, leaving nothing but white film. She blocks your path, the library collapsing behind you...</desc>
+    <commander id="408" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="8105" name="Divine Statue" />
+      <card id="7069" name="Stoneblade Seraphim" />
+      <card id="7182" name="Axion, the Valiant" />
+      <card id="2083" name="Habrok, the Lance" />
+      <card id="6100" name="Tiamat" />
+      <card id="6040" name="Scorching Cutlass" />
+      <card id="5174" name="Cloudbreak Elites" />
+      <card id="2028" name="Infinity" />
+      <card id="2028" mastery_level="2" name="Infinity" />
+      <card id="5088" mastery_level="3" name="Betrayal" />
+      <card id="5031" mastery_level="4" name="Frostlance Valkyrie" />
+      <card id="5031" mastery_level="5" name="Frostlance Valkyrie" />
+      <card id="2083" mastery_level="6" name="Habrok, the Lance" />
+      <card id="7182" mastery_level="7" name="Axion, the Valiant" />
+    </deck>
+  </mission>
+  <!-- Campaign Event 8 Weeks 5-8 -->
+  <mission>
+    <id>5861</id>
+    <name>Ancient Wars</name>
+    <energy>9</energy>
+    <desc>The ceiling's mural shifts beneath your gaze. The pictures change the longer you stare, playing out a story. There appears small groups in the painting, of goblins and orcs. They fight against another group of creatures...</desc>
+    <commander id="313" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="5012" name="Static Drake" />
+      <card id="5010" name="Concealed Dragon" />
+      <card id="7128" name="Denizen of the Trees" />
+      <card id="5093" name="Scaly Newborn" />
+      <card id="2030" name="Ebon Duelist" />
+      <card id="5117" name="Spark Chronicler" />
+      <card id="1025" name="Lightbound Archer" />
+      <card id="1030" name="Paladin" />
+      <card id="2029" mastery_level="2" name="Sly Critters" />
+      <card id="5117" mastery_level="3" name="Spark Chronicler" />
+      <card id="7070" mastery_level="4" name="Laughing Menace" />
+      <card id="1041" mastery_level="5" name="Avenging Angel" />
+      <card id="5094" mastery_level="6" name="Luminesce Dragon" />
+      <card id="5039" mastery_level="7" name="Ethereal Knight" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>In the old days, the tribes were divided. Each one fended for itself.</text>
+      </line>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>However, the goblins and orcs formed an alliance, and invaded the other tribes' homes. </text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5862</id>
+    <name>Slayer of the Salt Wastes</name>
+    <energy>9</energy>
+    <desc>A new symbol of red wings appears, uniting the creatures being attacked. The red wings rally the creatures, leading them against the goblins and orcs. Razi continues her history lesson.</desc>
+    <commander id="362" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7012" name="Life Drake" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="7062" name="Brine Bellower" />
+      <card id="7129" name="Zealous Snapjaw" />
+      <card id="5072" name="Blind Seer" />
+      <card id="2052" name="Protector of Skyhaven" />
+      <card id="7118" name="Fleetfoot Wolper" />
+      <card id="1327" name="Fallen Angel" />
+      <card id="1031" mastery_level="2" name="Noble Champion" />
+      <card id="6119" mastery_level="3" name="Shadowy Muse" />
+      <card id="2084" mastery_level="4" name="Apocalypse Rider" />
+      <card id="7040" mastery_level="5" name="Warden of the Leaf" />
+      <card id="6023" mastery_level="6" name="Broodmother" />
+      <card id="7071" mastery_level="7" name="Gorilleus" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>It was a Crimson-Winged Hero who united the scattered tribes, leading them against their attackers.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5863</id>
+    <name>Eternal Devotion</name>
+    <energy>9</energy>
+    <desc>As Razi talks, the mural shifts again. The angels in the picture become larger and more life-like. Next to you, Yuriel shouts in alarm and points towards the books. Identical warriors to the ones in the mural have appeared, prepared for combat!</desc>
+    <commander id="407" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6061" name="Decagon" />
+      <card id="7061" name="Thickskin Dragon" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="7116" name="Watchful Hexhound" />
+      <card id="2027" name="Halo Mage" />
+      <card id="2085" name="Faithstay Supplier" />
+      <card id="1030" name="Paladin" />
+      <card id="2052" mastery_level="2" name="Protector of Skyhaven" />
+      <card id="6038" mastery_level="3" name="Hemlock" />
+      <card id="7118" mastery_level="4" name="Fleetfoot Wolper" />
+      <card id="6118" mastery_level="5" name="Kindlecrack Demon" />
+      <card id="5128" mastery_level="6" name="Torchrime Terrorizer" />
+      <card id="7069" mastery_level="7" name="Stoneblade Seraphim" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5864</id>
+    <name>Unification</name>
+    <energy>9</energy>
+    <desc>You fight off history's replicas, each defeated guardian disappearing as soon as you strike the final blow. The mural's image has shifted again, matching Razi's words.</desc>
+    <commander id="362" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7012" name="Life Drake" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="6131" name="Winged Abducter" />
+      <card id="5127" name="Dynamo Drake" />
+      <card id="7073" name="Heralded Slugger" />
+      <card id="2085" name="Faithstay Supplier" />
+      <card id="1025" name="Lightbound Archer" />
+      <card id="1030" name="Paladin" />
+      <card id="7118" mastery_level="2" name="Fleetfoot Wolper" />
+      <card id="5118" mastery_level="3" name="Chalice Courier" />
+      <card id="2029" mastery_level="4" name="Sly Critters" />
+      <card id="6074" mastery_level="5" name="Deific Channeler" />
+      <card id="5029" mastery_level="6" name="Snowback Dragon" />
+      <card id="6040" mastery_level="7" name="Scorching Cutlass" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>The threat was gone, but the Crimson Hero imagined a greater future. She attempted to unify all the winged tribes...</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5865</id>
+    <name>Bluefire's Promise</name>
+    <energy>9</energy>
+    <desc>The painting changes to show a dragon, one with blue wings and a burning heart. It looms terrifyingly over the symbol of red wings...</desc>
+    <commander id="381" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="6012" name="Ember Drake" />
+      <card id="5127" name="Dynamo Drake" />
+      <card id="6063" name="Firetail Dragon" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="5117" name="Spark Chronicler" />
+      <card id="7118" name="Fleetfoot Wolper" />
+      <card id="2084" name="Apocalypse Rider" />
+      <card id="7041" name="Feral Angel" />
+      <card id="2084" mastery_level="2" name="Apocalypse Rider" />
+      <card id="2052" mastery_level="3" name="Protector of Skyhaven" />
+      <card id="7038" mastery_level="4" name="Sol King" />
+      <card id="5031" mastery_level="5" name="Frostlance Valkyrie" />
+      <card id="6099" mastery_level="6" name="Opposing Forces" />
+      <card id="7096" mastery_level="7" name="Vala, Sleeping Earth" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>A great dragon from another dimension reached out to the Crimson Hero. The Blue Dragon of Fire promised to unite the tribes peacefully...</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5866</id>
+    <name>Trance Peace</name>
+    <energy>9</energy>
+    <desc>Dark energy radiates from the dragon image. It taints the area around it, spreading across the mural.</desc>
+    <commander id="355" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7012" name="Life Drake" />
+      <card id="5062" name="Cliffhanger Wyrm" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="7095" name="Talonsaur" />
+      <card id="2029" name="Sly Critters" />
+      <card id="2027" name="Halo Mage" />
+      <card id="2027" name="Halo Mage" />
+      <card id="2030" name="Ebon Duelist" />
+      <card id="6119" mastery_level="2" name="Shadowy Muse" />
+      <card id="5040" mastery_level="3" name="Winged Trumpeter" />
+      <card id="2085" mastery_level="4" name="Faithstay Supplier" />
+      <card id="5043" mastery_level="5" name="Empyrean" />
+      <card id="6060" mastery_level="6" name="Pudgytusk" />
+      <card id="7132" mastery_level="7" name="Bastion Percher" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>But the peace that Bluefire offered was false. It rotted the land, and destroyed the minds of the Crimson Hero's loved ones.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5867</id>
+    <name>Tainted World</name>
+    <energy>9</energy>
+    <desc>The red wings remain free from the dragon's darkness, but the area around it has been corrupted. The rest of the mural has been draped in spiderweb-like darkness.</desc>
+    <commander id="381" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="5012" name="Static Drake" />
+      <card id="6096" name="Desert Slitherer" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="7129" name="Zealous Snapjaw" />
+      <card id="2054" name="Pack Runner" />
+      <card id="6038" name="Hemlock" />
+      <card id="7116" name="Watchful Hexhound" />
+      <card id="7041" name="Feral Angel" />
+      <card id="2030" mastery_level="2" name="Ebon Duelist" />
+      <card id="7116" mastery_level="3" name="Watchful Hexhound" />
+      <card id="1030" mastery_level="4" name="Paladin" />
+      <card id="5039" mastery_level="5" name="Ethereal Knight" />
+      <card id="6062" mastery_level="6" name="Abzu" />
+      <card id="7127" mastery_level="7" name="Basilclaw Clutch" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>The Hero cried out for the dragon to stop, but he did not listen.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5868</id>
+    <name>Hero's Fight</name>
+    <energy>9</energy>
+    <desc>The red wings confront the dragon figure. Part of the mural's clarity is restored, the darkness creeping away from the two figures.</desc>
+    <commander id="407" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7012" name="Life Drake" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="6061" name="Decagon" />
+      <card id="6119" name="Shadowy Muse" />
+      <card id="2052" name="Protector of Skyhaven" />
+      <card id="1025" name="Lightbound Archer" />
+      <card id="6070" name="Petrifier" />
+      <card id="7070" mastery_level="2" name="Laughing Menace" />
+      <card id="2054" mastery_level="3" name="Pack Runner" />
+      <card id="1025" mastery_level="4" name="Lightbound Archer" />
+      <card id="6073" mastery_level="5" name="Obsidian" />
+      <card id="6009" mastery_level="6" name="Siphon Dragon" />
+      <card id="5121" mastery_level="7" name="Cauterizing Psalm" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>And so the Hero plunged into The Void Plane, where the dragon hid, to prevent his essence from tainting more of her world.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5869</id>
+    <name>Weak Heart</name>
+    <energy>9</energy>
+    <desc>The image twists again, white spikes growing around the red wings and dragon images. A heart appears between the two...</desc>
+    <commander id="381" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6131" name="Winged Abducter" />
+      <card id="6010" name="Cliffpass Defender" />
+      <card id="5024" name="Cloudtop Dragon" />
+      <card id="7070" name="Laughing Menace" />
+      <card id="5117" name="Spark Chronicler" />
+      <card id="5072" name="Blind Seer" />
+      <card id="6070" name="Petrifier" />
+      <card id="1327" mastery_level="2" name="Fallen Angel" />
+      <card id="7116" mastery_level="3" name="Watchful Hexhound" />
+      <card id="7073" mastery_level="4" name="Heralded Slugger" />
+      <card id="5075" mastery_level="5" name="Arith" />
+      <card id="7060" mastery_level="6" name="Shenami" />
+      <card id="5116" mastery_level="7" name="Justice" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>A great battle ensued, but the Hero realized that Bluefire's heart was his weakness.</text>
+      </line>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>Without it, he could not leave The Void Plane. So she pulled it from his chest, and fled.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5870</id>
+    <name>Winged Battle</name>
+    <energy>9</energy>
+    <desc>The dragon image contorts into a fierce snarl. Its claw lifts towards the heart, but the heart draws closer to the red wings.</desc>
+    <commander id="407" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="5012" name="Static Drake" />
+      <card id="5096" name="Enclave Dragon" />
+      <card id="2001" name="Dunetooth Demon" />
+      <card id="2067" name="Symbol of Elaria" />
+      <card id="2084" name="Apocalypse Rider" />
+      <card id="1031" name="Noble Champion" />
+      <card id="5040" name="Winged Trumpeter" />
+      <card id="7038" name="Sol King" />
+      <card id="7116" mastery_level="2" name="Watchful Hexhound" />
+      <card id="7116" mastery_level="3" name="Watchful Hexhound" />
+      <card id="2030" mastery_level="4" name="Ebon Duelist" />
+      <card id="5071" mastery_level="5" name="Stoic Watcher" />
+      <card id="7008" mastery_level="6" name="Rock Dragon" />
+      <card id="5120" mastery_level="7" name="Seraph of Stone Rise" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>Bluefire would not let her win so easily...</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5871</id>
+    <name>Lost in the Abyss</name>
+    <energy>9</energy>
+    <desc>The red wings, still holding the heart, vanish from the mural. The webbed darkness inverts, turning upon the dragon, eventually swallowing him and leaving nothing left.</desc>
+    <commander id="355" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="6012" name="Ember Drake" />
+      <card id="5010" name="Concealed Dragon" />
+      <card id="1631" name="Venom Dragon" />
+      <card id="2066" name="Basalt Dragon" />
+      <card id="2030" name="Ebon Duelist" />
+      <card id="1030" name="Paladin" />
+      <card id="7038" name="Sol King" />
+      <card id="7041" name="Feral Angel" />
+      <card id="2030" mastery_level="2" name="Ebon Duelist" />
+      <card id="5072" mastery_level="3" name="Blind Seer" />
+      <card id="2084" mastery_level="4" name="Apocalypse Rider" />
+      <card id="5077" mastery_level="5" name="Everspark Ace" />
+      <card id="6132" mastery_level="6" name="Deception Scalelord" />
+      <card id="1042" mastery_level="7" name="Archgeneral" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>Bluefire tossed the world's memories of the hero into the abyss.</text>
+      </line>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>The Crimson Hero's name and exploits, and those of her closest allies, would be forgotten by all.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5872</id>
+    <name>Curious Malchior</name>
+    <energy>9</energy>
+    <desc>While Razi is telling her story, and while you and Yuriel fight off the strange statue apparitions, Malchior conducts his own search. He begins poking around the library surrounding the mural...</desc>
+    <commander id="407" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7012" name="Life Drake" />
+      <card id="6010" name="Cliffpass Defender" />
+      <card id="2090" name="Terra Dweller" />
+      <card id="2044" name="Quillhide Dragon" />
+      <card id="7118" name="Fleetfoot Wolper" />
+      <card id="1030" name="Paladin" />
+      <card id="1031" name="Noble Champion" />
+      <card id="7073" name="Heralded Slugger" />
+      <card id="6119" mastery_level="2" name="Shadowy Muse" />
+      <card id="7070" mastery_level="3" name="Laughing Menace" />
+      <card id="2084" mastery_level="4" name="Apocalypse Rider" />
+      <card id="5003" mastery_level="5" name="White Knight" />
+      <card id="6128" mastery_level="6" name="Grimhunt Wings" />
+      <card id="1041" mastery_level="7" name="Avenging Angel" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5873</id>
+    <name>The Hidden Tome</name>
+    <energy>9</energy>
+    <desc>Malchior pulls out a book with a thick binder. It's black and with golden trim. He pages through it, eyes lighting up, and sidles up close to you while Razi continues to talk...</desc>
+    <commander id="362" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="7012" name="Life Drake" />
+      <card id="6061" name="Decagon" />
+      <card id="2005" name="Sailing Drake" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="7038" name="Sol King" />
+      <card id="6070" name="Petrifier" />
+      <card id="6119" name="Shadowy Muse" />
+      <card id="2027" name="Halo Mage" />
+      <card id="5040" mastery_level="2" name="Winged Trumpeter" />
+      <card id="2085" mastery_level="3" name="Faithstay Supplier" />
+      <card id="2084" mastery_level="4" name="Apocalypse Rider" />
+      <card id="7040" mastery_level="5" name="Warden of the Leaf" />
+      <card id="6024" mastery_level="6" name="Bane Dragon" />
+      <card id="7119" mastery_level="7" name="Bunnpaa" />
+    </deck>
+    <speech>
+      <line>
+        <commander>grandexcavator</commander>
+        <enemy>0</enemy>
+        <text>Psst.... adventurer, take a look at this. This book looks like it's written in a strange language, but I don't think it's that simple...</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5874</id>
+    <name>Coded Writings</name>
+    <energy>9</energy>
+    <desc>Malchior continues to go through the book. The words are strange, as if written in a different language, but Malchior seems to have a different theory...</desc>
+    <commander id="362" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="5024" name="Cloudtop Dragon" />
+      <card id="5024" name="Cloudtop Dragon" />
+      <card id="7128" name="Denizen of the Trees" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="2029" name="Sly Critters" />
+      <card id="1030" name="Paladin" />
+      <card id="2027" name="Halo Mage" />
+      <card id="7070" name="Laughing Menace" />
+      <card id="2085" mastery_level="2" name="Faithstay Supplier" />
+      <card id="2084" mastery_level="3" name="Apocalypse Rider" />
+      <card id="5023" mastery_level="4" name="Nightfall Dragon" />
+      <card id="2028" mastery_level="5" name="Infinity" />
+      <card id="7094" mastery_level="6" name="Basilisk" />
+      <card id="6074" mastery_level="7" name="Deific Channeler" />
+    </deck>
+    <speech>
+      <line>
+        <commander>grandexcavator</commander>
+        <enemy>0</enemy>
+        <text>This book is actually written in some kind of code!</text>
+      </line>
+      <line>
+        <commander>grandexcavator</commander>
+        <enemy>0</enemy>
+        <text>Now wait a tick, there must be an amazing secret inside...</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5875</id>
+    <name>Void-Touched Power</name>
+    <energy>9</energy>
+    <desc>Malchior decodes part of the book. He surmises that there is some kind of great secret hidden in its pages, and believes he has found an important clue.</desc>
+    <commander id="407" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="5062" name="Cliffhanger Wyrm" />
+      <card id="7061" name="Thickskin Dragon" />
+      <card id="7061" name="Thickskin Dragon" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="7118" name="Fleetfoot Wolper" />
+      <card id="1025" name="Lightbound Archer" />
+      <card id="7070" name="Laughing Menace" />
+      <card id="1327" name="Fallen Angel" />
+      <card id="5040" mastery_level="2" name="Winged Trumpeter" />
+      <card id="2052" mastery_level="3" name="Protector of Skyhaven" />
+      <card id="5023" mastery_level="4" name="Nightfall Dragon" />
+      <card id="5076" mastery_level="5" name="Sorath, the Valkyrie" />
+      <card id="2006" mastery_level="6" name="Zhulong" />
+      <card id="6120" mastery_level="7" name="Oni Blade" />
+    </deck>
+    <speech>
+      <line>
+        <commander>grandexcavator</commander>
+        <enemy>0</enemy>
+        <text>The general subject seems to be about a hidden power, accessible to those who were touched by The Void.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5876</id>
+    <name>Interrupted Story</name>
+    <energy>9</energy>
+    <desc>Razi drones on her lesson of the past. As she nears finishing her story, she stops, seeing Malchior waving the book in front of you.</desc>
+    <commander id="362" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7129" name="Zealous Snapjaw" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="7070" name="Laughing Menace" />
+      <card id="2052" name="Protector of Skyhaven" />
+      <card id="1031" name="Noble Champion" />
+      <card id="1327" name="Fallen Angel" />
+      <card id="5072" mastery_level="2" name="Blind Seer" />
+      <card id="5117" mastery_level="3" name="Spark Chronicler" />
+      <card id="5026" mastery_level="4" name="Frostfire Wyrm" />
+      <card id="7072" mastery_level="5" name="Murabi" />
+      <card id="1340" mastery_level="6" name="Blazekin Dragon" />
+      <card id="2055" mastery_level="7" name="Wrath" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>The Crimsonwinged Hero will return soon. The only way to avoid her reckoning...</text>
+      </line>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>... What's that book you're holding?</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5877</id>
+    <name>Subtle Discovery</name>
+    <energy>9</energy>
+    <desc>Malchior proudly holds up the book so that Razi can also see what he has found. Yuriel hisses at the sage, but Malchior is unashamed of the secrets he's uncovered.</desc>
+    <commander id="324" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="7062" name="Brine Bellower" />
+      <card id="2045" name="Chillbeard Giant" />
+      <card id="2044" name="Quillhide Dragon" />
+      <card id="2005" name="Sailing Drake" />
+      <card id="5118" name="Chalice Courier" />
+      <card id="6070" name="Petrifier" />
+      <card id="2084" name="Apocalypse Rider" />
+      <card id="1327" name="Fallen Angel" />
+      <card id="6119" mastery_level="2" name="Shadowy Muse" />
+      <card id="5117" mastery_level="3" name="Spark Chronicler" />
+      <card id="6130" mastery_level="4" name="Shadowed Wyvern" />
+      <card id="6117" mastery_level="5" name="Whispering Ophanim" />
+      <card id="1040" mastery_level="6" name="Storm Dragon" />
+      <card id="6182" mastery_level="7" name="Ezuth the Expelled" />
+    </deck>
+    <speech>
+      <line>
+        <commander>grandexcavator</commander>
+        <enemy>0</enemy>
+        <text>I've found this amazing book about some kind of secret power, hidden away in a barren wasteland!</text>
+      </line>
+      <line>
+        <commander>owlmystic</commander>
+        <enemy>0</enemy>
+        <text>Malchior! Why did you tell her that?!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5878</id>
+    <name>Stolen Knowledge</name>
+    <energy>9</energy>
+    <desc>Razi's face darkens. An uncomfortable amount of silence passes. Malchior slowly turns the book away from her, hiding the tome within his shirt. There is an extremely noticeable lump beneath his clothes where he's stashed it.</desc>
+    <commander id="313" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="5010" name="Concealed Dragon" />
+      <card id="2044" name="Quillhide Dragon" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="5093" name="Scaly Newborn" />
+      <card id="5118" name="Chalice Courier" />
+      <card id="7041" name="Feral Angel" />
+      <card id="2027" name="Halo Mage" />
+      <card id="2029" name="Sly Critters" />
+      <card id="7118" mastery_level="2" name="Fleetfoot Wolper" />
+      <card id="7116" mastery_level="3" name="Watchful Hexhound" />
+      <card id="7032" mastery_level="4" name="Nidhogg" />
+      <card id="2086" mastery_level="5" name="Rimelight Crusader" />
+      <card id="1040" mastery_level="6" name="Storm Dragon" />
+      <card id="6182" mastery_level="7" name="Ezuth the Expelled" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>That power is reserved for those who have sworn their service to the Crimsonwings.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5879</id>
+    <name>Expected Betrayal</name>
+    <energy>9</energy>
+    <desc>Malchior smiles awkwardly at Razi's furious glower. A light shines from the mural, tracing the shapes of angelic guardians, far more than you faced previously.</desc>
+    <commander id="362" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="5127" name="Dynamo Drake" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="5062" name="Cliffhanger Wyrm" />
+      <card id="7041" name="Feral Angel" />
+      <card id="2052" name="Protector of Skyhaven" />
+      <card id="7070" name="Laughing Menace" />
+      <card id="1025" name="Lightbound Archer" />
+      <card id="2085" mastery_level="2" name="Faithstay Supplier" />
+      <card id="1327" mastery_level="3" name="Fallen Angel" />
+      <card id="5063" mastery_level="4" name="Runic Dragon" />
+      <card id="6177" mastery_level="5" name="Diabolic Summoner" />
+      <card id="6026" mastery_level="6" name="Smokefang" />
+      <card id="2028" mastery_level="7" name="Infinity" />
+    </deck>
+    <speech>
+      <line>
+        <commander>grandexcavator</commander>
+        <enemy>0</enemy>
+        <text>Razi? You're not going to try and kill us now, are you?</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5880</id>
+    <name>Gathering Resolve</name>
+    <energy>9</energy>
+    <desc>The outline of the images glow, taking form from the mural's drawings. Razi rises at their center...</desc>
+    <commander id="355" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7095" name="Talonsaur" />
+      <card id="5062" name="Cliffhanger Wyrm" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="5093" name="Scaly Newborn" />
+      <card id="7038" name="Sol King" />
+      <card id="7073" name="Heralded Slugger" />
+      <card id="2054" name="Pack Runner" />
+      <card id="2085" name="Faithstay Supplier" />
+      <card id="7073" mastery_level="2" name="Heralded Slugger" />
+      <card id="1030" mastery_level="3" name="Paladin" />
+      <card id="5061" mastery_level="4" name="Thunderfist Rex" />
+      <card id="1042" mastery_level="5" name="Archgeneral" />
+      <card id="5008" mastery_level="6" name="Ice Dragon" />
+      <card id="1041" mastery_level="7" name="Avenging Angel" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>You are a champion who defeated Bluefire. I know I lack that power, yet even so...</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5881</id>
+    <name>Destroyed Knowledge</name>
+    <energy>9</energy>
+    <desc>The library trembles. You turn to the room's exit, only to find that more guardians have arrived behind you, blocking your path.</desc>
+    <commander id="355" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="6061" name="Decagon" />
+      <card id="5024" name="Cloudtop Dragon" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="7129" name="Zealous Snapjaw" />
+      <card id="7041" name="Feral Angel" />
+      <card id="2029" name="Sly Critters" />
+      <card id="2054" name="Pack Runner" />
+      <card id="2054" name="Pack Runner" />
+      <card id="7073" mastery_level="2" name="Heralded Slugger" />
+      <card id="1025" mastery_level="3" name="Lightbound Archer" />
+      <card id="7060" mastery_level="4" name="Shenami" />
+      <card id="7040" mastery_level="5" name="Warden of the Leaf" />
+      <card id="2006" mastery_level="6" name="Zhulong" />
+      <card id="7071" mastery_level="7" name="Gorilleus" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>I see you have no intention of leaving the continent. </text>
+      </line>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>If the knowledge here will be used against us Crimsonwings, then the library is better off destroyed!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5882</id>
+    <name>Inevitable Conflict</name>
+    <energy>9</energy>
+    <desc>The ground lurches, a terrible cracking sound resounding through the walls. Razi points her winged allies to attack you and your group.</desc>
+    <commander id="407" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="6063" name="Firetail Dragon" />
+      <card id="7061" name="Thickskin Dragon" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="2046" name="Leaping Dragon" />
+      <card id="5117" name="Spark Chronicler" />
+      <card id="5118" name="Chalice Courier" />
+      <card id="7041" name="Feral Angel" />
+      <card id="2030" name="Ebon Duelist" />
+      <card id="1030" mastery_level="2" name="Paladin" />
+      <card id="5117" mastery_level="3" name="Spark Chronicler" />
+      <card id="6058" mastery_level="4" name="Tarragon Cuttail" />
+      <card id="7117" mastery_level="5" name="Rael, Skyhaven Giant" />
+      <card id="6062" mastery_level="6" name="Abzu" />
+      <card id="6074" mastery_level="7" name="Deific Channeler" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>You have already wasted precious time here while our allies our busy.</text>
+      </line>
+      <line>
+        <commander>Portraits_Crimson_Winged_Angel</commander>
+        <enemy>1</enemy>
+        <text>Now, be trapped beneath the rubble!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5883</id>
+    <name>Angelic Flight</name>
+    <energy>9</energy>
+    <desc>You, Malchior, and Yuriel fight against the legion of angels. You focus on clearing a path, while Yuriel and Malchior handle the angels behind you.</desc>
+    <commander id="362" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="2066" name="Basalt Dragon" />
+      <card id="2090" name="Terra Dweller" />
+      <card id="6096" name="Desert Slitherer" />
+      <card id="1327" name="Fallen Angel" />
+      <card id="7118" name="Fleetfoot Wolper" />
+      <card id="7116" name="Watchful Hexhound" />
+      <card id="1030" name="Paladin" />
+      <card id="5118" mastery_level="2" name="Chalice Courier" />
+      <card id="7038" mastery_level="3" name="Sol King" />
+      <card id="6009" mastery_level="4" name="Siphon Dragon" />
+      <card id="6071" mastery_level="5" name="Masked Heraid" />
+      <card id="6059" mastery_level="6" name="Violetfire Igniter" />
+      <card id="7069" mastery_level="7" name="Stoneblade Seraphim" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5884</id>
+    <name>Overstayed Welcome</name>
+    <energy>9</energy>
+    <desc>The moment the path is clear, the three of you bolt towards the exit. However, the invisible maze and a host of other unactivated traps impede your progress.</desc>
+    <commander id="356" />
+    <deck>
+      <card id="8105" name="Divine Statue" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="6096" name="Desert Slitherer" />
+      <card id="2067" name="Symbol of Elaria" />
+      <card id="7095" name="Talonsaur" />
+      <card id="1031" name="Noble Champion" />
+      <card id="7073" name="Heralded Slugger" />
+      <card id="2030" name="Ebon Duelist" />
+      <card id="1030" name="Paladin" />
+      <card id="2052" mastery_level="2" name="Protector of Skyhaven" />
+      <card id="7118" mastery_level="3" name="Fleetfoot Wolper" />
+      <card id="6099" mastery_level="4" name="Opposing Forces" />
+      <card id="5039" mastery_level="5" name="Ethereal Knight" />
+      <card id="6060" mastery_level="6" name="Pudgytusk" />
+      <card id="2086" mastery_level="7" name="Rimelight Crusader" />
+    </deck>
+    <speech>
+      <line>
+        <commander>grandexcavator</commander>
+        <enemy>0</enemy>
+        <text>As fascinating as this conversation is, I do believe it's time to leave!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5885</id>
+    <name>Yuriel's Escape Plan</name>
+    <energy>9</energy>
+    <desc>Yuriel takes the lead point. He waves his wing, the runes activating and showing the path through the maze.</desc>
+    <commander id="407" />
+    <deck>
+      <card id="8104" name="Celestial Statue" />
+      <card id="6131" name="Winged Abducter" />
+      <card id="7061" name="Thickskin Dragon" />
+      <card id="2066" name="Basalt Dragon" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="2084" name="Apocalypse Rider" />
+      <card id="7118" name="Fleetfoot Wolper" />
+      <card id="1327" name="Fallen Angel" />
+      <card id="2027" name="Halo Mage" />
+      <card id="5040" mastery_level="2" name="Winged Trumpeter" />
+      <card id="6070" mastery_level="3" name="Petrifier" />
+      <card id="7096" mastery_level="4" name="Vala, Sleeping Earth" />
+      <card id="6039" mastery_level="5" name="Auroch" />
+      <card id="5023" mastery_level="6" name="Nightfall Dragon" />
+      <card id="2086" mastery_level="7" name="Rimelight Crusader" />
+    </deck>
+    <speech>
+      <line>
+        <commander>owlmystic</commander>
+        <enemy>0</enemy>
+        <text>Don't panic! Follow the marks I made on our way in.</text>
+      </line>
+    </speech>
+  </mission>
+  <!-- Campaign Event 9 -->
+  <!-- Extra Node -->
+  <mission>
+    <id>5886</id>
+    <name>Dragon Feed</name>
+    <energy>9</energy>
+    <desc>In Goblin Rise Stronghold, there are a number of items that the goblins use for supplies. Some are traditional, but others include small explosives and metallic crafts. Fiona's dragons have become addicted to the little sparklers.</desc>
+    <commander id="323" />
+    <deck>
+      <card id="6007" name="Goblin Crew" />
+      <card id="5012" name="Static Drake" />
+      <card id="7012" name="Life Drake" />
+      <card id="6006" name="Chaos Golem" />
+      <card id="5158" name="Chilltide Stormtender" />
+      <card id="5141" name="Nimbocaster" />
+      <card id="5152" name="Mermaid Merchant" />
+      <card id="2064" name="Tome Sneak" />
+      <card id="1628" name="Garganotos" />
+      <card id="6021" mastery_level="2" name="Marsh Ogre" />
+      <card id="5089" mastery_level="3" name="Gomblit" />
+      <card id="2062" mastery_level="4" name="Deadeye Apprentice" />
+      <card id="6090" mastery_level="5" name="Crackshot" />
+      <card id="7008" mastery_level="6" name="Rock Dragon" />
+      <card id="5129" mastery_level="7" name="Shackled Gatekeeper" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5887</id>
+    <name>Dragon Affection</name>
+    <energy>9</energy>
+    <desc>A closer inspection reveals that, despite lighting on fire and smoking, the firework look-alike is actually candy. If you can become friends with Fiona's dragonlings, they might help you in your journey.</desc>
+    <commander id="259" />
+    <deck>
+      <card id="6007" name="Goblin Crew" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6012" name="Ember Drake" />
+      <card id="7017" name="Coral Elemental" />
+      <card id="6044" name="Firewalker" />
+      <card id="5155" name="Silvertongue Fencer" />
+      <card id="6050" name="Wortwog" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="1628" name="Garganotos" />
+      <card id="7145" mastery_level="2" name="Metalsmith" />
+      <card id="5091" mastery_level="3" name="Armor Thief" />
+      <card id="2053" mastery_level="4" name="Rocket Rider" />
+      <card id="2102" mastery_level="5" name="Lowbog Shaman" />
+      <card id="6062" mastery_level="6" name="Abzu" />
+      <card id="6058" mastery_level="7" name="Tarragon Cuttail" />
+    </deck>
+  </mission>
+  <!-- Campaign Event 9 Weeks 1-4 -->
+  <mission>
+    <id>5888</id>
+    <name>An Ally's Distress</name>
+    <energy>9</energy>
+    <desc>Fiona the dragontamer has sent your airship a distress message. You agree to meet her just outside one of the infamous goblin camps, Goblin Rise Stronghold...</desc>
+    <commander id="310" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="7095" name="Talonsaur" />
+      <card id="6144" name="Crossbomb Gremlin" />
+      <card id="2102" name="Lowbog Shaman" />
+      <card id="1628" name="Garganotos" />
+      <card id="5010" mastery_level="2" name="Concealed Dragon" />
+      <card id="6089" mastery_level="3" name="Fire Belcher" />
+      <card id="6143" mastery_level="4" name="Dynamic Entry" />
+      <card id="5089" mastery_level="5" name="Gomblit" />
+      <card id="6023" mastery_level="6" name="Broodmother" />
+      <card id="5147" mastery_level="7" name="Bard of Gobsburg" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>I'm glad you could make it, adventurer. </text>
+      </line>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>After I separated from you in Beetleton Bunker, I've been trying to locate the Insects' missing Spellstone Hammer.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5889</id>
+    <name>Team Assembled</name>
+    <energy>9</energy>
+    <desc>Another approaches from the distance. You realize that it is Orgoth, one of the orc tribe leaders. Fiona gestures for him to join your little circle.</desc>
+    <commander id="310" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="7012" name="Life Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="5062" name="Cliffhanger Wyrm" />
+      <card id="5089" name="Gomblit" />
+      <card id="2062" name="Deadeye Apprentice" />
+      <card id="1628" name="Garganotos" />
+      <card id="6131" mastery_level="2" name="Winged Abducter" />
+      <card id="6072" mastery_level="3" name="Bone Wielder" />
+      <card id="2063" mastery_level="4" name="Hob Fletcher" />
+      <card id="7090" mastery_level="5" name="Prospector" />
+      <card id="6060" mastery_level="6" name="Pudgytusk" />
+      <card id="7143" mastery_level="7" name="Hog Bronco" />
+    </deck>
+    <speech>
+      <line>
+        <commander>orchero</commander>
+        <enemy>1</enemy>
+        <text>Howdy, Fiona and adventurer. It's been a while, eh.</text>
+      </line>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>Good, we've all assembled. Now I can explain...</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5890</id>
+    <name>The Goblins' Plot</name>
+    <energy>9</energy>
+    <desc>Fiona huddles closely to you and Orgoth, furtively looking behind her shoulder, as if expecting the goblins to be listening. The distance is great enough that you doubt even the scouts could see you.</desc>
+    <commander id="311" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="2045" name="Chillbeard Giant" />
+      <card id="2046" name="Leaping Dragon" />
+      <card id="1628" name="Garganotos" />
+      <card id="6143" name="Dynamic Entry" />
+      <card id="2063" name="Hob Fletcher" />
+      <card id="5024" mastery_level="2" name="Cloudtop Dragon" />
+      <card id="2062" mastery_level="3" name="Deadeye Apprentice" />
+      <card id="5089" mastery_level="4" name="Gomblit" />
+      <card id="7146" mastery_level="5" name="Goblin Brigand" />
+      <card id="1640" mastery_level="6" name="Life Dragon" />
+      <card id="6014" mastery_level="7" name="Armored Siegefist" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>I saw Decim with the Spellstone Hammer. The goblins escorted him into the fortress.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5891</id>
+    <name>The Wildcard</name>
+    <energy>9</energy>
+    <desc>Fiona huddles closely to you and Orgoth, furtively looking behind her shoulder, as if expecting the goblins to be listening. The distance is great enough that you doubt even the scouts could see you.</desc>
+    <commander id="320" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="2005" name="Sailing Drake" />
+      <card id="2044" name="Quillhide Dragon" />
+      <card id="1628" name="Garganotos" />
+      <card id="2053" name="Rocket Rider" />
+      <card id="2064" name="Tome Sneak" />
+      <card id="5062" mastery_level="2" name="Cliffhanger Wyrm" />
+      <card id="2062" mastery_level="3" name="Deadeye Apprentice" />
+      <card id="6143" mastery_level="4" name="Dynamic Entry" />
+      <card id="6144" mastery_level="5" name="Crossbomb Gremlin" />
+      <card id="6132" mastery_level="6" name="Deception Scalelord" />
+      <card id="7089" mastery_level="7" name="Elder Shaman" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>Fiona and Decim are both inhabitants of the same region, Tarragon Peak. Fiona expresses her distress upon learning of Decim's involvement with the Spellstone Hammer.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5892</id>
+    <name>Mediator's Reminder</name>
+    <energy>9</energy>
+    <desc>The orc tribe has worked closely in the past with the goblins. Fiona has called Orgoth the orc to act as a mediator, and handle the situation as delicately as possible.</desc>
+    <commander id="317" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="2004" name="Lavatail Dragon" />
+      <card id="2001" name="Dunetooth Demon" />
+      <card id="1628" name="Garganotos" />
+      <card id="6089" name="Fire Belcher" />
+      <card id="2064" name="Tome Sneak" />
+      <card id="6063" mastery_level="2" name="Firetail Dragon" />
+      <card id="7146" mastery_level="3" name="Goblin Brigand" />
+      <card id="6021" mastery_level="4" name="Marsh Ogre" />
+      <card id="2102" mastery_level="5" name="Lowbog Shaman" />
+      <card id="6130" mastery_level="6" name="Shadowed Wyvern" />
+      <card id="5092" mastery_level="7" name="Tundra Reaver" />
+    </deck>
+    <speech>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>Well it ain't like the goblins are inherently evil, missie. He might have a reason.</text>
+      </line>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>I'm guessing ya want us to find out what he's doing, and 'save' him, eh.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5893</id>
+    <name>Off the Books</name>
+    <energy>9</energy>
+    <desc>With the situation assessed, Orgoth gives his best advice. Knowing that Fiona has had bad relationships with the goblins in the past, he suggests the wisest approach to entering the Goblin Fortress...</desc>
+    <commander id="317" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="5012" name="Static Drake" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="1628" name="Garganotos" />
+      <card id="5091" name="Armor Thief" />
+      <card id="7090" name="Prospector" />
+      <card id="5010" mastery_level="2" name="Concealed Dragon" />
+      <card id="6089" mastery_level="3" name="Fire Belcher" />
+      <card id="5089" mastery_level="4" name="Gomblit" />
+      <card id="2102" mastery_level="5" name="Lowbog Shaman" />
+      <card id="6009" mastery_level="6" name="Siphon Dragon" />
+      <card id="7001" mastery_level="7" name="Hekaton" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>I don't want to strain our relationship with the goblins anymore than where it's at.</text>
+      </line>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>Aye, aye. I know a way to get ya both in the fort, and we'll keep it on the down-low, off the goblins' radar.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5894</id>
+    <name>Underground Entrance</name>
+    <energy>9</energy>
+    <desc>Orgoth takes you farther away from Goblin Rise Stronghold. Fiona starts to protest, before Orgoth reveals a secret passage that leads underground.</desc>
+    <commander id="311" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="7012" name="Life Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="7128" name="Denizen of the Trees" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="1628" name="Garganotos" />
+      <card id="6143" name="Dynamic Entry" />
+      <card id="7145" name="Metalsmith" />
+      <card id="2066" mastery_level="2" name="Basalt Dragon" />
+      <card id="6144" mastery_level="3" name="Crossbomb Gremlin" />
+      <card id="6072" mastery_level="4" name="Bone Wielder" />
+      <card id="2062" mastery_level="5" name="Deadeye Apprentice" />
+      <card id="6059" mastery_level="6" name="Violetfire Igniter" />
+      <card id="7088" mastery_level="7" name="Jubjub" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5895</id>
+    <name>Abandoned Entrance</name>
+    <energy>9</energy>
+    <desc>The passage seems to be an abandoned mining tunnel. There are rail cart tracks bent out of place. Orgoth uses the light from his fist to illuminate the way.</desc>
+    <commander id="348" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6061" name="Decagon" />
+      <card id="5096" name="Enclave Dragon" />
+      <card id="6021" name="Marsh Ogre" />
+      <card id="6021" name="Marsh Ogre" />
+      <card id="2062" name="Deadeye Apprentice" />
+      <card id="2045" mastery_level="2" name="Chillbeard Giant" />
+      <card id="2102" mastery_level="3" name="Lowbog Shaman" />
+      <card id="2063" mastery_level="4" name="Hob Fletcher" />
+      <card id="5091" mastery_level="5" name="Armor Thief" />
+      <card id="7060" mastery_level="6" name="Shenami" />
+      <card id="6145" mastery_level="7" name="Goblin Butcher" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5896</id>
+    <name>Abandoned Entrance</name>
+    <energy>9</energy>
+    <desc>A few goblin patrols roam the tunnels. However, you're able to take them out quickly, beofre they can return to fortress and warn the rest of their tribe.</desc>
+    <commander id="323" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="7061" name="Thickskin Dragon" />
+      <card id="2053" name="Rocket Rider" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="7145" name="Metalsmith" />
+      <card id="7129" mastery_level="2" name="Zealous Snapjaw" />
+      <card id="6089" mastery_level="3" name="Fire Belcher" />
+      <card id="7146" mastery_level="4" name="Goblin Brigand" />
+      <card id="2102" mastery_level="5" name="Lowbog Shaman" />
+      <card id="6026" mastery_level="6" name="Smokefang" />
+      <card id="6049" mastery_level="7" name="Goblin Explosioneer" />
+    </deck>
+    <speech>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>Take out the small patrols of goblins. We'll be outta Goblin Rise before they know somethin's up.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5897</id>
+    <name>Goblin Rise Infiltration</name>
+    <energy>9</energy>
+    <desc>Orgoth leads you through the winding abandoned mine, motioning for you to stop as he comes to one particular sector. Slowly he pushes open the hatch, peering cautiously on the surface, before announcing it clear for the two of you two follow.</desc>
+    <commander id="311" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="5093" name="Scaly Newborn" />
+      <card id="7062" name="Brine Bellower" />
+      <card id="7090" name="Prospector" />
+      <card id="1628" name="Garganotos" />
+      <card id="5089" name="Gomblit" />
+      <card id="2001" mastery_level="2" name="Dunetooth Demon" />
+      <card id="6089" mastery_level="3" name="Fire Belcher" />
+      <card id="2064" mastery_level="4" name="Tome Sneak" />
+      <card id="2102" mastery_level="5" name="Lowbog Shaman" />
+      <card id="6024" mastery_level="6" name="Bane Dragon" />
+      <card id="6142" mastery_level="7" name="Ba Dim Boom" />
+    </deck>
+    <speech>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>Try not to let 'em spot ya. We'll never leave Goblin Rise if they catch us in the middle of infiltratin'.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5898</id>
+    <name>Clear Coast</name>
+    <energy>9</energy>
+    <desc>You find yourself in an unused storage room, with rocks and debris piled in the corner. The three of you sneak out of the empty room, onto the ramparts of Goblin Rise.</desc>
+    <commander id="311" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="5012" name="Static Drake" />
+      <card id="7012" name="Life Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="2090" name="Terra Dweller" />
+      <card id="1628" name="Garganotos" />
+      <card id="5091" name="Armor Thief" />
+      <card id="6089" name="Fire Belcher" />
+      <card id="7129" mastery_level="2" name="Zealous Snapjaw" />
+      <card id="6072" mastery_level="3" name="Bone Wielder" />
+      <card id="5089" mastery_level="4" name="Gomblit" />
+      <card id="2063" mastery_level="5" name="Hob Fletcher" />
+      <card id="1340" mastery_level="6" name="Blazekin Dragon" />
+      <card id="6014" mastery_level="7" name="Armored Siegefist" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5899</id>
+    <name>Nefarious Plot</name>
+    <energy>9</energy>
+    <desc>As you move across the ramparts, Fiona points down below to the main courtyard. A group of goblins have gathered, one of them holding a hammer with a crystallized rock on it. But not just any rock...</desc>
+    <commander id="341" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="7012" name="Life Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="5010" name="Concealed Dragon" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="1628" name="Garganotos" />
+      <card id="6089" name="Fire Belcher" />
+      <card id="6089" name="Fire Belcher" />
+      <card id="2123" mastery_level="2" name="Firestoke Clawsmith" />
+      <card id="7145" mastery_level="3" name="Metalsmith" />
+      <card id="2102" mastery_level="4" name="Lowbog Shaman" />
+      <card id="7090" mastery_level="5" name="Prospector" />
+      <card id="1040" mastery_level="6" name="Storm Dragon" />
+      <card id="7144" mastery_level="7" name="Kazamo" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>Would you look at that... It's the Spellstone Hammer!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5900</id>
+    <name>Spellstone Hammer</name>
+    <energy>9</energy>
+    <desc>The goblin wielding the hammer gives it a mighty swing. It cracks the ground, an object growing from its source. In its place is a Mecha, shaped like a dragon.</desc>
+    <commander id="353" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6021" name="Marsh Ogre" />
+      <card id="6061" name="Decagon" />
+      <card id="5010" name="Concealed Dragon" />
+      <card id="2102" name="Lowbog Shaman" />
+      <card id="7087" name="Goblites" />
+      <card id="6021" name="Marsh Ogre" />
+      <card id="1631" mastery_level="2" name="Venom Dragon" />
+      <card id="6144" mastery_level="3" name="Crossbomb Gremlin" />
+      <card id="7145" mastery_level="4" name="Metalsmith" />
+      <card id="5089" mastery_level="5" name="Gomblit" />
+      <card id="2006" mastery_level="6" name="Zhulong" />
+      <card id="7026" mastery_level="7" name="Frostjaw" />
+    </deck>
+    <speech>
+      <line>
+        <commander>Portrait_Goblin_Captain</commander>
+        <enemy>1</enemy>
+        <text>Wowee, Baldur! That's one heck of a toy!</text>
+      </line>
+      <line>
+        <commander>necromancer</commander>
+        <enemy>1</enemy>
+        <text>Heh, the sky's the limit, boys. We can make ANYTHING.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5901</id>
+    <name>New Tribal Leader</name>
+    <energy>9</energy>
+    <desc>Even without Reks or his sister Xerkahn, it seems the goblins have continued their original plans. The strength of their arms has increased since you last saw them. </desc>
+    <commander id="341" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6144" name="Crossbomb Gremlin" />
+      <card id="6131" name="Winged Abducter" />
+      <card id="6097" name="Hoard Dragon" />
+      <card id="1628" name="Garganotos" />
+      <card id="6143" name="Dynamic Entry" />
+      <card id="7090" name="Prospector" />
+      <card id="2123" mastery_level="2" name="Firestoke Clawsmith" />
+      <card id="2064" mastery_level="3" name="Tome Sneak" />
+      <card id="5091" mastery_level="4" name="Armor Thief" />
+      <card id="5089" mastery_level="5" name="Gomblit" />
+      <card id="7127" mastery_level="6" name="Basilclaw Clutch" />
+      <card id="5090" mastery_level="7" name="Reks' Faithful" />
+    </deck>
+    <speech>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>The strongest or the craftiest... a goblin needs one of those traits to become a leader.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5902</id>
+    <name>A Spellstone's Power</name>
+    <energy>9</energy>
+    <desc>You spy on the small group of goblins in the courtyard. The one with the Spellstone Hammer gives it a mighty swing, creating another mechanical creature.</desc>
+    <commander id="320" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6144" name="Crossbomb Gremlin" />
+      <card id="2067" name="Symbol of Elaria" />
+      <card id="2045" name="Chillbeard Giant" />
+      <card id="1628" name="Garganotos" />
+      <card id="5091" name="Armor Thief" />
+      <card id="7087" name="Goblites" />
+      <card id="7095" mastery_level="2" name="Talonsaur" />
+      <card id="6021" mastery_level="3" name="Marsh Ogre" />
+      <card id="5089" mastery_level="4" name="Gomblit" />
+      <card id="2102" mastery_level="5" name="Lowbog Shaman" />
+      <card id="7096" mastery_level="6" name="Vala, Sleeping Earth" />
+      <card id="6088" mastery_level="7" name="Doxum's Construct" />
+    </deck>
+    <speech>
+      <line>
+        <commander>necromancer</commander>
+        <enemy>1</enemy>
+        <text>One good whack with this hammer and we can improve our defenses.</text>
+      </line>
+      <line>
+        <commander>necromancer</commander>
+        <enemy>1</enemy>
+        <text>I'd like to see the fool who thinks he can take on an army of Goblins and Mechas!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5903</id>
+    <name>Stolen Property</name>
+    <energy>9</energy>
+    <desc>Fiona's fist clenches at the sight of the goblins playing with such a powerful artifact, especially one that they have stolen. She inches closer...</desc>
+    <commander id="353" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="2046" name="Leaping Dragon" />
+      <card id="2044" name="Quillhide Dragon" />
+      <card id="2063" name="Hob Fletcher" />
+      <card id="6143" name="Dynamic Entry" />
+      <card id="7090" name="Prospector" />
+      <card id="7095" mastery_level="2" name="Talonsaur" />
+      <card id="5091" mastery_level="3" name="Armor Thief" />
+      <card id="5089" mastery_level="4" name="Gomblit" />
+      <card id="2062" mastery_level="5" name="Deadeye Apprentice" />
+      <card id="6128" mastery_level="6" name="Grimhunt Wings" />
+      <card id="6111" mastery_level="7" name="Aspects of the Ashes" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>We need to get that Spellstone Hammer. Its rightful owners are the Insects of Beetleton.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5904</id>
+    <name>The Mission's Meaning</name>
+    <energy>9</energy>
+    <desc>Orgoth places a hand on Fiona's shoulder, gently pulling her back. He reminds her of her original purpose...</desc>
+    <commander id="341" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6143" name="Dynamic Entry" />
+      <card id="7129" name="Zealous Snapjaw" />
+      <card id="7128" name="Denizen of the Trees" />
+      <card id="5091" name="Armor Thief" />
+      <card id="6090" name="Crackshot" />
+      <card id="7145" name="Metalsmith" />
+      <card id="7128" mastery_level="2" name="Denizen of the Trees" />
+      <card id="6021" mastery_level="3" name="Marsh Ogre" />
+      <card id="2053" mastery_level="4" name="Rocket Rider" />
+      <card id="6144" mastery_level="5" name="Crossbomb Gremlin" />
+      <card id="5063" mastery_level="6" name="Runic Dragon" />
+      <card id="5148" mastery_level="7" name="Gribmalda of Wings" />
+    </deck>
+    <speech>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>Whoa there, little lady. Are you here for the Spellstone Hammer... or for Decim?</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5905</id>
+    <name>The Search for Decim</name>
+    <energy>9</energy>
+    <desc>Fiona grudgingly agrees with Orgoth's logic. Her worry outstrips the need to retrieve the Spellstone Hammer.</desc>
+    <commander id="348" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6072" name="Bone Wielder" />
+      <card id="2001" name="Dunetooth Demon" />
+      <card id="7095" name="Talonsaur" />
+      <card id="2062" name="Deadeye Apprentice" />
+      <card id="5089" name="Gomblit" />
+      <card id="2063" name="Hob Fletcher" />
+      <card id="7128" mastery_level="2" name="Denizen of the Trees" />
+      <card id="5091" mastery_level="3" name="Armor Thief" />
+      <card id="6144" mastery_level="4" name="Crossbomb Gremlin" />
+      <card id="5089" mastery_level="5" name="Gomblit" />
+      <card id="5128" mastery_level="6" name="Torchrime Terrorizer" />
+      <card id="6146" mastery_level="7" name="Dragonfly Runner" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>Grr, you're right. If we cause a commotion now, we'll never find Decim.</text>
+      </line>
+      <line>
+        <commander>orchero</commander>
+        <enemy>0</enemy>
+        <text>Yep. Let's keep movin' then.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5906</id>
+    <name>Creatures Locked, Forgotten</name>
+    <energy>9</energy>
+    <desc>The three of you continue your infiltration. Since Decim isn't in any of the visible areas of the Stronghold, Orgoth takes you down to the cells. Some of them are filled with the same mechas created by the Spellstone Hammer...</desc>
+    <commander id="340" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="6144" name="Crossbomb Gremlin" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="7095" name="Talonsaur" />
+      <card id="6089" name="Fire Belcher" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="6131" mastery_level="2" name="Winged Abducter" />
+      <card id="2062" mastery_level="3" name="Deadeye Apprentice" />
+      <card id="2063" mastery_level="4" name="Hob Fletcher" />
+      <card id="2053" mastery_level="5" name="Rocket Rider" />
+      <card id="7032" mastery_level="6" name="Nidhogg" />
+      <card id="7019" mastery_level="7" name="Lady of the Swamp" />
+    </deck>
+  </mission>
+  <mission>
+    <id>5907</id>
+    <name>Following the Singer</name>
+    <energy>9</energy>
+    <desc>The path has poor lighting, torches flickering eerily as you continue your descent. The mechas snap their jaws angrily as you pass, straining against the bars. Then you can hear a voice singing...</desc>
+    <commander id="311" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="2045" name="Chillbeard Giant" />
+      <card id="6096" name="Desert Slitherer" />
+      <card id="2062" name="Deadeye Apprentice" />
+      <card id="7087" name="Goblites" />
+      <card id="7090" name="Prospector" />
+      <card id="6131" mastery_level="2" name="Winged Abducter" />
+      <card id="2102" mastery_level="3" name="Lowbog Shaman" />
+      <card id="5089" mastery_level="4" name="Gomblit" />
+      <card id="7146" mastery_level="5" name="Goblin Brigand" />
+      <card id="6183" mastery_level="6" name="Knowledge Hoarder" />
+      <card id="1344" mastery_level="7" name="Boomsting Duo" />
+    </deck>
+    <speech>
+      <line>
+        <commander>flamebender</commander>
+        <enemy>1</enemy>
+        <text>Nobody knows the trouble I've seen...</text>
+      </line>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>That voice... Decim is here!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5908</id>
+    <name>Ungrateful Detainee</name>
+    <energy>9</energy>
+    <desc>You find Decim sitting inside one of the cells. It appears the goblins have locked him away. Fiona runs to the bars, but Decim remains seated and scowls.</desc>
+    <commander id="320" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="5012" name="Static Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="2064" name="Tome Sneak" />
+      <card id="7010" name="Honeycomb Dragon" />
+      <card id="7128" name="Denizen of the Trees" />
+      <card id="2102" name="Lowbog Shaman" />
+      <card id="6089" name="Fire Belcher" />
+      <card id="7087" name="Goblites" />
+      <card id="2066" mastery_level="2" name="Basalt Dragon" />
+      <card id="5091" mastery_level="3" name="Armor Thief" />
+      <card id="7090" mastery_level="4" name="Prospector" />
+      <card id="6144" mastery_level="5" name="Crossbomb Gremlin" />
+      <card id="6058" mastery_level="6" name="Tarragon Cuttail" />
+      <card id="2103" mastery_level="7" name="Siren" />
+    </deck>
+    <speech>
+      <line>
+        <commander>flamebender</commander>
+        <enemy>1</enemy>
+        <text>Fiona? Ugh.</text>
+      </line>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>Ugh? Excuse me? And here I was going to let you out of that cell!</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5909</id>
+    <name>All According to Plan</name>
+    <energy>9</energy>
+    <desc>Decim shakes his head. Despite his predicament, he seems unconcerned with his current situation. A small creature moves in the darkest corners of Decim's cell, frightened blue orbs fixated on you.</desc>
+    <commander id="320" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="2063" name="Hob Fletcher" />
+      <card id="2004" name="Lavatail Dragon" />
+      <card id="7024" name="Woolmane Dragon" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="2063" name="Hob Fletcher" />
+      <card id="2123" mastery_level="2" name="Firestoke Clawsmith" />
+      <card id="6021" mastery_level="3" name="Marsh Ogre" />
+      <card id="2062" mastery_level="4" name="Deadeye Apprentice" />
+      <card id="2102" mastery_level="5" name="Lowbog Shaman" />
+      <card id="7132" mastery_level="6" name="Bastion Percher" />
+      <card id="6176" mastery_level="7" name="Searsteel Soldier" />
+    </deck>
+    <speech>
+      <line>
+        <commander>flamebender</commander>
+        <enemy>1</enemy>
+        <text>It's not like I needed your help or anything! Everything's going according to plan.</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5910</id>
+    <name>Fiona's Suspicion</name>
+    <energy>9</energy>
+    <desc>The creature dashes behind Decim's back before you can get a good luck at it. Fiona questions Decim's 'plan' about getting captured in Goblin Rise Stronghold...</desc>
+    <commander id="341" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="7012" name="Life Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="7146" name="Goblin Brigand" />
+      <card id="7093" name="Larva Drakes" />
+      <card id="2046" name="Leaping Dragon" />
+      <card id="7090" name="Prospector" />
+      <card id="5089" name="Gomblit" />
+      <card id="5091" name="Armor Thief" />
+      <card id="2090" mastery_level="2" name="Terra Dweller" />
+      <card id="5091" mastery_level="3" name="Armor Thief" />
+      <card id="2102" mastery_level="4" name="Lowbog Shaman" />
+      <card id="5089" mastery_level="5" name="Gomblit" />
+      <card id="7008" mastery_level="6" name="Rock Dragon" />
+      <card id="7091" mastery_level="7" name="Wave Plunderer" />
+    </deck>
+    <speech>
+      <line>
+        <commander>dragontamer</commander>
+        <enemy>0</enemy>
+        <text>And what exactly, is your plan? What were you doing with the Spellstone Hammer?</text>
+      </line>
+    </speech>
+  </mission>
+  <mission>
+    <id>5911</id>
+    <name>Dragonling Friend</name>
+    <energy>9</energy>
+    <desc>Decim reaches behind him, gently pulling a cat-sized scaled creature. A young wind drake is in the cell with him, cowering before your gaze, and snuggling closer to Decim.</desc>
+    <commander id="353" />
+    <deck>
+      <card id="5006" name="Arms Enforcer" />
+      <card id="6012" name="Ember Drake" />
+      <card id="6007" name="Goblin Crew" />
+      <card id="2063" name="Hob Fletcher" />
+      <card id="6063" name="Firetail Dragon" />
+      <card id="2123" name="Firestoke Clawsmith" />
+      <card id="1628" name="Garganotos" />
+      <card id="5089" name="Gomblit" />
+      <card id="2062" name="Deadeye Apprentice" />
+      <card id="1631" mastery_level="2" name="Venom Dragon" />
+      <card id="6090" mastery_level="3" name="Crackshot" />
+      <card id="7146" mastery_level="4" name="Goblin Brigand" />
+      <card id="6144" mastery_level="5" name="Crossbomb Gremlin" />
+      <card id="7184" mastery_level="6" name="Marshwing Rider" />
+      <card id="5144" mastery_level="7" name="Wee Sparkcaster" />
+    </deck>
+    <speech>
+      <line>
+        <commander>flamebender</commander>
+        <enemy>1</enemy>
+        <text>I traded the Spellstone Hammer for this little guy's freedom.</text>
+      </line>
+      <line>
+        <commander>Sailing_Drake</commander>
+        <enemy>1</enemy>
+        <text>Awoo....</text>
+      </line>
+    </speech>
+  </mission>
 </root>
